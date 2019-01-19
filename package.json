@@ -1,0 +1,16 @@
+{
+  "name": "jamstack-cheatsheet",
+  "private": true,
+  "version": "0.0.0",
+  "description": "A cheatsheet for cool people wanting to get on the JAMstack ",
+  "author": "Pedro Duarte",
+  "license": "MIT",
+  "scripts": {
+    "start": "mdx-go src",
+    "build": "mdx-go build src --static"
+  },
+  "dependencies": {
+    "mdx-go": "^2.0.0-32",
+    "styled-components": "^4.1.3"
+  }
+}
