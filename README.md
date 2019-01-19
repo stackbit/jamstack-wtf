@@ -2,11 +2,22 @@
 
 A simple guide to help you get on the JAMstack.
 
-## Summary
+## Table of Contents
 
 - What is JAMstack
-- Start here
-- Continuous deployment
+  - Meaning
+  - Timeline
+  - Workflow
+  - Benefits
+- Getting Started
+  - Development
+  - Deployment
+  - Dynamic parts
+  - CMS
+- Benefits
+- Resources
+- Examples
+- Contribute
 
 ## Contribute
 
