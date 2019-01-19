@@ -1,2 +1,9 @@
 # jamstack-cheatsheet
-A cheatsheet for cool people wanting to get on the JAMstack 
+
+A simple guide to help you get on the JAMstack.
+
+## Summary
+
+- What is JAMstack
+- Start here
+- Continuous deployment
