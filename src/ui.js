@@ -56,7 +56,22 @@ const Base = styled.div`
   }
 `;
 
-const components = {};
+const A = styled.a`
+  color: inherit;
+  transition: color 300ms;
+
+  &:hover {
+    color: var(--highlight-color);
+  }
+`;
+
+const Link = ({ href, ...props }) => (
+  <A href={isAbsoluteUrl(href) ? href : href.replace(".md", "")} {...props} />
+);
+
+const components = {
+  a: Link,
+};
 
 export const Root = ({ children }) => (
   <ComponentProvider components={components}>
