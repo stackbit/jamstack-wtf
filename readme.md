@@ -14,7 +14,6 @@ A simple guide to help you get on the JAMstack.
   - Deployment
   - Dynamic parts
   - CMS
-- Benefits
 - Resources
 - Examples
 - Contribute

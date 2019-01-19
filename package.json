@@ -2,7 +2,7 @@
   "name": "jamstack-cheatsheet",
   "private": true,
   "version": "0.0.0",
-  "description": "A cheatsheet for cool people wanting to get on the JAMstack ",
+  "description": "A simple guide to help you get on the JAMstack",
   "author": "Pedro Duarte",
   "license": "MIT",
   "scripts": {
