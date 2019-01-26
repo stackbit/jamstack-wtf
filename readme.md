@@ -67,6 +67,15 @@ Your server is notified when a new build is required, typically via webhooks. Se
 
 ### Timeline
 
+When was the term coined and where are we not?
+
+- 2015: Static sites are becoming popular due to the popularity of certain SSG such as Jekyll
+- 2016: A small group of developers believe that Static sites don't have to be static and the term "JAMstack" comes to life
+- 2017: The modern web revolution starts prioritising the importance of performance, scalability and developer experience. The term JAMstack starts to be adopted by a wider group of developers and the first enterprise JAMStack projects are announced.
+- 2018: Tool likes Netlify, Gatsby and Contentful have helped promote the term and the community is rapidly growing. This was also the year of the first JAMStack Conference.
+
+Source: [SnipCart](https://snipcart.com/blog/jamstack)
+
 ### Workflow
 
 ### Benefits
@@ -75,7 +84,7 @@ Below are some of the key benefits of a JAMstack site
 
 - Faster perfornance: serve pre-built markup and assets over a CDN
 - More secure: no need to worry about server or database vulnerabilities
-- Less expensive: hosting of static files are cheap or [even free]()
+- Less expensive: hosting of static files are cheap or [even free](https://netlify.com)
 - Better developer experience: frond end developers can focus on the front end, without being tight to a monolithic architecture. This usually means quicker and more focused development
 - Scalability: if you're product suddenly goes viral and has many active users, the CDN seamlessly compensates
 
