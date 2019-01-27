@@ -3,6 +3,7 @@ import 'styled-components/macro';
 import { Link } from 'gatsby';
 import { Flex, Card, Text, Heading } from 'rebass';
 import Layout from '../components/Layout';
+import { green, pink, blue, red } from '../styles/colors';
 
 export default function() {
   return (
@@ -22,41 +23,67 @@ export default function() {
         flexWrap="wrap"
         css={`
           text-align: center;
-          position: relative;
-          z-index: 1;
         `}
       >
         <Card
-          flex="1"
-          m={[5]}
-          p={[5]}
-          bg="white"
-          boxShadow="2px 4px 16px rgba(0, 0, 0, 0.02)"
+          flex="1 1 320px"
+          my={[2]}
+          mx={[2]}
+          py={[5]}
+          px={[2]}
+          border={`2px solid`}
           borderRadius="3px"
+          color={green}
+          fontSize={[3, 4]}
+        >
+          <Link to="/what-is-jamstack">What is JAMstack?</Link>
+        </Card>
+        <Card
+          flex="1 1 320px"
+          my={[2]}
+          mx={[2]}
+          py={[5]}
+          px={[2]}
+          border={`2px solid`}
+          borderRadius="3px"
+          color={pink}
+          fontSize={[3, 4]}
         >
           <Link to="/getting-started">
-            <Text fontSize={[4]}>Getting started</Text>
+            <Text fontSize={[3, 4]}>Getting started</Text>
           </Link>
         </Card>
         <Card
-          flex="1"
-          m={[5]}
-          p={[5]}
-          bg="white"
-          boxShadow="2px 4px 16px rgba(0, 0, 0, 0.02)"
+          flex="1 1 320px"
+          my={[2]}
+          mx={[2]}
+          py={[5]}
+          px={[2]}
+          border={`2px solid`}
           borderRadius="3px"
+          color={blue}
+          fontSize={[3, 4]}
         >
-          <Link to="/what-is-jamstack">
-            <Text fontSize={[4]}>What is JAMstack?</Text>
+          <Link to="/resources">
+            <Text fontSize={[3, 4]}>Resources</Text>
+          </Link>
+        </Card>
+        <Card
+          flex="1 1 320px"
+          my={[2]}
+          mx={[2]}
+          py={[5]}
+          px={[2]}
+          border={`2px solid`}
+          borderRadius="3px"
+          color={red}
+          fontSize={[3, 4]}
+        >
+          <Link to="/examples">
+            <Text fontSize={[3, 4]}>Examples</Text>
           </Link>
         </Card>
       </Flex>
-      <p>
-        <Link to="/resources">Resources</Link>
-      </p>
-      <p>
-        <Link to="/examples">Examples</Link>
-      </p>
     </Layout>
   );
 }
