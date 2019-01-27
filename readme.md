@@ -23,7 +23,7 @@ A straight-to-the-point guide to help you get on the JAMstack.
 
 ### Meaning
 
-JAM stands for Javascript, API & Markup. The term JAMstack was popularised by Mathias Biilmann (CEO & Co-founder of Netlify) to describe "a modern web development architecture based on client-side JavaScript, reusable APIs, and prebuilt Markup".
+JAM stands for Javascript, API & Markup. The term JAMstack was popularised by [Mathias Biilmann](https://twitter.com/biilmann) (CEO & Co-founder of Netlify) to describe "a modern web development architecture based on client-side JavaScript, reusable APIs, and prebuilt Markup".
 
 Let's look a bit closer into what each of those pilars mean.
 
