@@ -10,4 +10,16 @@ module.exports = {
     },
   },
   pathPrefix: '/',
+  plugins: [
+    'gatsby-plugin-catch-links',
+    'gatsby-plugin-react-helmet',
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/content`,
+        name: 'content',
+      },
+    },
+    'gatsby-transformer-remark',
+  ],
 };
