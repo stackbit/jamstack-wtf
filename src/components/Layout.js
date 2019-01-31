@@ -26,6 +26,7 @@ const GlobalStyle = createGlobalStyle`
 		font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 		line-height: 1.5;
 		font-size: 18px;
+		color: #161314;
 	}
 
 	::selection {
@@ -46,7 +47,11 @@ const GlobalStyle = createGlobalStyle`
 	}
 
 	ul {
-		list-style: none;
+		list-style-position: inside
+	}
+
+	ol {
+		list-style-position: inside
 	}
 
 `;

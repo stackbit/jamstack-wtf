@@ -53,7 +53,7 @@ export default function() {
           Table of contents
         </Text>
         <Box my={[5, 6]} fontSize={[3, 5]}>
-          <ul>
+          <ul style={{ listStyle: 'none' }}>
             <li>
               <a href="#what-is-jamstack">What is JAMstack?</a>
               <Box as="ul" ml={[4, 5]}>
@@ -143,6 +143,7 @@ export default function() {
               py={4}
               mx="3px"
               bg={orange}
+              color={black}
               style={{ borderRadius: '4px' }}
             >
               APIs
@@ -152,6 +153,7 @@ export default function() {
               py={4}
               mx="3px"
               bg={pink}
+              color={black}
               style={{ borderRadius: '4px 16px 4px 4px' }}
             >
               Markup
@@ -257,122 +259,126 @@ export default function() {
         <Content>
           <ContentTitle id="timeline">Timeline</ContentTitle>
 
-          <Card
-            borderRadius="16px 16px 4px 4px"
-            bg={turq}
-            color={black}
-            py={4}
-            mt={[5, 6]}
-            mb="6px"
-            fontSize={[4, 5]}
-            style={{ textAlign: 'center' }}
+          <Flex
+            flexDirection="column"
+            justifyContent="center"
+            mx="auto"
+            style={{ maxWidth: '500px' }}
           >
-            <Text letterSpacing="4px" fontWeight="bold">
-              2015
-            </Text>
-          </Card>
-          <Card
-            borderRadius="4px 4px 16px 16px"
-            p={4}
-            bg="white"
-            color={black}
-            fontSize={[1, 3]}
-          >
-            <p>
-              Static sites are becoming popular due to the popularity of certain
-              SSG such as Jekyll
-            </p>
-          </Card>
+            <Card
+              borderRadius="16px 16px 4px 4px"
+              bg={turq}
+              color={black}
+              py={4}
+              mt={[5, 6]}
+              mb="6px"
+              fontSize={[4, 5]}
+              style={{ textAlign: 'center' }}
+            >
+              <Text letterSpacing="4px" fontWeight="bold">
+                2015
+              </Text>
+            </Card>
+            <Card
+              borderRadius="4px 4px 16px 16px"
+              p={4}
+              bg="white"
+              color={black}
+              fontSize={[1, 3]}
+            >
+              <p>
+                Static sites are becoming popular due to the popularity of
+                certain SSG such as Jekyll
+              </p>
+            </Card>
+            <Stem mx="auto" />
+            <Card
+              borderRadius="16px 16px 4px 4px"
+              bg={orange}
+              py={4}
+              mb="6px"
+              fontSize={[4, 5]}
+              color={black}
+              style={{ textAlign: 'center' }}
+            >
+              <Text letterSpacing="4px" fontWeight="bold">
+                2016
+              </Text>
+            </Card>
+            <Card
+              borderRadius="4px 4px 16px 16px"
+              p={4}
+              bg="white"
+              color={black}
+              fontSize={[1, 3]}
+            >
+              <p>
+                A small group of developers believe that Static sites don't have
+                to be static and the term "JAMstack" comes to life
+              </p>
+            </Card>
+            <Stem mx="auto" />
+            <Card
+              borderRadius="16px 16px 4px 4px"
+              bg={pink}
+              py={4}
+              mb="6px"
+              fontSize={[4, 5]}
+              color={black}
+              style={{ textAlign: 'center' }}
+            >
+              <Text letterSpacing="4px" fontWeight="bold">
+                2017
+              </Text>
+            </Card>
+            <Card
+              borderRadius="4px 4px 16px 16px"
+              p={4}
+              bg="white"
+              color={black}
+              fontSize={[1, 3]}
+            >
+              <p>
+                The modern web revolution starts prioritising the importance of
+                performance, scalability and developer experience. The term
+                JAMstack starts to be adopted by a wider group of developers and
+                the first enterprise JAMStack projects are announced
+              </p>
+            </Card>
+            <Stem mx="auto" />
+            <Card
+              borderRadius="16px 16px 4px 4px"
+              bg={blue}
+              py={4}
+              mb="6px"
+              fontSize={[4, 5]}
+              color={black}
+              style={{ textAlign: 'center' }}
+            >
+              <Text letterSpacing="4px" fontWeight="bold">
+                2018
+              </Text>
+            </Card>
+            <Card
+              borderRadius="4px 4px 16px 16px"
+              p={4}
+              bg="white"
+              color={black}
+              fontSize={[1, 3]}
+            >
+              <p>
+                Tool likes Netlify, Gatsby and Contentful have helped promote
+                the term and the community is rapidly growing. This was also the
+                year of the first JAMStack Conference.
+              </p>
+            </Card>
 
-          <Card
-            borderRadius="16px 16px 4px 4px"
-            bg={orange}
-            py={4}
-            mt={[4, 5]}
-            mb="6px"
-            fontSize={[4, 5]}
-            color={black}
-            style={{ textAlign: 'center' }}
-          >
-            <Text letterSpacing="4px" fontWeight="bold">
-              2016
-            </Text>
-          </Card>
-          <Card
-            borderRadius="4px 4px 16px 16px"
-            p={4}
-            bg="white"
-            color={black}
-            fontSize={[1, 3]}
-          >
-            <p>
-              A small group of developers believe that Static sites don't have
-              to be static and the term "JAMstack" comes to life
-            </p>
-          </Card>
-
-          <Card
-            borderRadius="16px 16px 4px 4px"
-            bg={pink}
-            py={4}
-            mt={[4, 5]}
-            mb="6px"
-            fontSize={[4, 5]}
-            color={black}
-            style={{ textAlign: 'center' }}
-          >
-            <Text letterSpacing="4px" fontWeight="bold">
-              2017
-            </Text>
-          </Card>
-          <Card
-            borderRadius="4px 4px 16px 16px"
-            p={4}
-            bg="white"
-            color={black}
-            fontSize={[1, 3]}
-          >
-            <p>
-              The modern web revolution starts prioritising the importance of
-              performance, scalability and developer experience. The term
-              JAMstack starts to be adopted by a wider group of developers and
-              the first enterprise JAMStack projects are announced
-            </p>
-          </Card>
-
-          <Card
-            borderRadius="16px 16px 4px 4px"
-            bg={blue}
-            py={4}
-            mt={[4, 5]}
-            mb="6px"
-            fontSize={[4, 5]}
-            color={black}
-            style={{ textAlign: 'center' }}
-          >
-            <Text letterSpacing="4px" fontWeight="bold">
-              2018
-            </Text>
-          </Card>
-          <Card
-            borderRadius="4px 4px 16px 16px"
-            p={4}
-            bg="white"
-            color={black}
-            fontSize={[1, 3]}
-          >
-            <p>
-              Tool likes Netlify, Gatsby and Contentful have helped promote the
-              term and the community is rapidly growing. This was also the year
-              of the first JAMStack Conference.
-            </p>
-          </Card>
-
-          <Box fontSize={[1, 3]} mt={[4, 5]}>
-            <ReadMore href="https://snipcart.com/blog/jamstack">
-              Source: SnipCart
-            </ReadMore>
-          </Box>
+            <Box fontSize={[1, 3]} mt={[4, 5]}>
+              <ReadMore href="https://snipcart.com/blog/jamstack">
+                Source: SnipCart
+              </ReadMore>
+            </Box>
+          </Flex>
         </Content>
 
         <Content>
@@ -397,7 +403,7 @@ export default function() {
             >
               Develop
             </Card>
-            <Box width="3px" pt={[4, 5]} bg="white" />
+            <Stem />
             <Card
               width="150px"
               borderRadius="100%"
@@ -413,7 +419,7 @@ export default function() {
             >
               Version Control
             </Card>
-            <Box width="3px" pt={[4, 5]} bg="white" />
+            <Stem />
             <Card
               width="100%"
               borderRadius="16px 16px"
@@ -424,7 +430,7 @@ export default function() {
             >
               Deployment
             </Card>
-            <Box width="3px" pt={[4, 5]} bg="white" />
+            <Stem />
             <Card
               width="150px"
               borderRadius="100%"
@@ -440,7 +446,7 @@ export default function() {
             >
               Build static assets
             </Card>
-            <Box width="3px" pt={[4, 5]} bg="white" />
+            <Stem />
             <Card
               width="150px"
               borderRadius="100%"
@@ -456,7 +462,7 @@ export default function() {
             >
               Pre-render &amp; invalidate cache
             </Card>
-            <Box width="3px" pt={[4, 5]} bg="white" />
+            <Stem />
             <Card
               width="100%"
               borderRadius="16px 16px"
@@ -469,17 +475,117 @@ export default function() {
             </Card>
           </Flex>
         </Content>
+
+        <Content hideDivider>
+          <ContentTitle id="benefits">Benefits</ContentTitle>
+
+          <Text as="h4" fontSize={[2, 3]} mt={[5, 6]}>
+            Faster performance
+          </Text>
+          <p>Serve pre-built markup and assets over a CDN</p>
+
+          <Text as="h4" fontSize={[2, 3]} mt={[5, 6]}>
+            More secure
+          </Text>
+          <p>No need to worry about server or database vulnerabilities</p>
+
+          <Text as="h4" fontSize={[2, 3]} mt={[5, 6]}>
+            Less expensive
+          </Text>
+          <p>
+            Hosting of static files are cheap or{' '}
+            <a href="https://netlify.com">even free</a>
+          </p>
+
+          <Text as="h4" fontSize={[2, 3]} mt={[5, 6]}>
+            Better developer experience
+          </Text>
+          <p>
+            Front end developers can focus on the front end, without being tight
+            to a monolithic architecture. This usually means quicker and more
+            focused development
+          </p>
+
+          <Text as="h4" fontSize={[2, 3]} mt={[5, 6]}>
+            Scalability
+          </Text>
+          <p>
+            If you're product suddenly goes viral and has many active users, the
+            CDN seamlessly compensates
+          </p>
+        </Content>
+      </Box>
+
+      <Box p={[4, 5]}>
+        <Text as="h2" fontSize={[3, 4]} id="getting-started">
+          Getting started
+        </Text>
+
+        <Content>
+          <ContentTitle id="development">Development</ContentTitle>
+
+          <p>
+            However you decide to generate your HTML assets is up to you. The
+            three most common approaches are:
+          </p>
+          <ol>
+            <li>Hand coding the HTML</li>
+            <li>Generating HTML files</li>
+            <li>Frontend framework</li>
+          </ol>
+
+          <Text as="h4" fontSize={[2, 3]} mt={[5, 6]}>
+            Hand coding
+          </Text>
+          <p>
+            Simple and effective method of writing HTML, it's ideal for super
+            simple pages.
+          </p>
+
+          <Text as="h4" fontSize={[2, 3]} mt={[5, 6]}>
+            Static Site Generators
+          </Text>
+          <p>
+            Most JAMstack sites are powered by a static site generator. There's
+            no enforcement on which SSG you decide to use.
+          </p>
+          <ul>
+            <li>Gatsby</li>
+            <li>Next.js</li>
+            <li>Hugo</li>
+            <li>Eleventy</li>
+            <li>Jekyll</li>
+            <li>Middleman</li>
+          </ul>
+
+          <Text as="h4" fontSize={[2, 3]} mt={[5, 6]}>
+            Frontend Framework
+          </Text>
+          <p>
+            Most frameworks don't output static HTML files, however it is
+            possible to do that but it requires more tooling experience and
+            maintainance.
+          </p>
+        </Content>
+
+        <Content>
+          <ContentTitle id="deployment">Deployment</ContentTitle>
+          <p>
+            Your built site needs to be hosted somewhere. There are great
+            services that provides this for free and with ease.
+          </p>
+        </Content>
       </Box>
     </Layout>
   );
 }
 
-const Content = ({ children }) => (
+const Content = ({ hideDivider, children }) => (
   <React.Fragment>
     <Box my={[5, 6]} fontSize={[3, 4]} style={{ maxWidth: '720px' }}>
       {children}
     </Box>
-    <Divider />
+    {!hideDivider && <Divider />}
   </React.Fragment>
 );
 
@@ -519,4 +625,13 @@ ReadMore.defaultProps = {
   my: [2, 3],
   py: 1,
   fontSize: [2, 3],
+};
+
+const Stem = styled(Box)`
+  width: 3px;
+`;
+
+Stem.defaultProps = {
+  pt: [4, 5],
+  bg: 'white',
 };
