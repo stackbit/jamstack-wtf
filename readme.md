@@ -134,7 +134,7 @@ Examples:
 - Vue
 - Angular 2
 
-## Dedployment
+## Deployment
 
 Your built site needs to be hosted somewhere. There are great services that provides this for free and with ease.
 

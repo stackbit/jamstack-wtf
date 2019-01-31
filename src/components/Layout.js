@@ -6,49 +6,12 @@ import { Flex, Box } from 'rebass';
 import { J, A, M } from '../icons';
 import { pink } from '../styles/colors';
 
-const rotate = keyframes`
-	0% {
-		transform: rotate(0)
-	}
-	100% {
-		transform: rotate(360deg)
-	}
-`;
-
 function Layout({ children }) {
   return (
     <Wrapper>
-      <Helmet>
-        <link
-          href="https://fonts.googleapis.com/css?family=Inconsolata:400,700"
-          rel="stylesheet"
-        />
-      </Helmet>
-      <Box mx="auto">
-        <Link to="/">
-          <Flex flexDirection="column" alignItems="center" py={[3, 4]}>
-            <J
-              width="48px"
-              css={`
-                animation: ${rotate} 50000ms linear both;
-              `}
-            />
-            <A
-              width="48px"
-              css={`
-                animation: ${rotate} 50000ms linear reverse both;
-              `}
-            />
-            <M
-              width="48px"
-              css={`
-                animation: ${rotate} 50000ms linear both;
-              `}
-            />
-          </Flex>
-        </Link>
-        {children}
-      </Box>
+      <Helmet />
+
+      {children}
       <GlobalStyle />
     </Wrapper>
   );
@@ -57,10 +20,13 @@ function Layout({ children }) {
 export default Layout;
 
 const GlobalStyle = createGlobalStyle`
-	body {
-		font-family: 'Inconsolata';
+	* {
 		margin: 0;
-		background-color: #f1eee8;
+		padding: 0;
+	}
+
+	body {
+		font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 		line-height: 1.5;
 		font-size: 18px;
 	}
@@ -73,10 +39,21 @@ const GlobalStyle = createGlobalStyle`
 		text-decoration: none;
 		color: inherit;
 	}
+
+	h1,
+	h2,
+	h3,
+	h4 {
+		font-weight: 400;
+	}
+
+	ul {
+		list-style: none;
+	}
+
 `;
 
 const Wrapper = styled.div`
-  padding: 0 12px;
-  max-width: 960px;
+  padding: 0;
   margin: 0 auto;
 `;

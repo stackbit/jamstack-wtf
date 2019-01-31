@@ -32,18 +32,18 @@ Since all the markup and assets are pre-built, they can be served via CDN. This 
 
 Each deploy is a full snapshot of the site. This helps guarantee a consistent version of the site globally.
 
-### Cache invalidation
+#### Cache invalidation
 
 Once your build is uploaded, the CDN invalidates its cache. This means that your new build is live in an instant.
 
 More information [here](https://www.netlify.com/blog/2015/09/11/instant-cache-invalidation/).
 
-### Everything in version control
+#### Everything in version control
 
 Your codebase lives in Version Control System, such as Git. The main benefits are: change history of every file, collaborators and traceability.
 
 More information [here](https://www.atlassian.com/git/tutorials/what-is-version-control).
 
-### Automated builds
+#### Automated builds
 
 Your server is notified when a new build is required, typically via webhooks. Server builds the project, updates the CDNs and the site is live.
