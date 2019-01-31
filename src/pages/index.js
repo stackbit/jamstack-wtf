@@ -1,6 +1,5 @@
 import React from 'react';
-import styled, { keyframes } from 'styled-components/macro';
-import { Link } from 'gatsby';
+import styled, { keyframes } from 'styled-components';
 import { Flex, Box, Card, Text } from 'rebass';
 import Layout from '../components/Layout';
 import { J, A, M } from '../icons';
@@ -475,18 +474,14 @@ export default function() {
   );
 }
 
-const Content = styled(({ children }) => {
-  return (
-    <React.Fragment>
-      <Box my={[5, 6]} fontSize={[3, 4]}>
-        {children}
-      </Box>
-      <Divider />
-    </React.Fragment>
-  );
-})`
-  max-width: 720px;
-`;
+const Content = ({ children }) => (
+  <React.Fragment>
+    <Box my={[5, 6]} fontSize={[3, 4]} style={{ maxWidth: '720px' }}>
+      {children}
+    </Box>
+    <Divider />
+  </React.Fragment>
+);
 
 const ContentTitle = styled(Text)``;
 

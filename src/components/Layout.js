@@ -1,16 +1,13 @@
 import React from 'react';
 import Helmet from 'react-helmet';
-import { Link } from 'gatsby';
-import styled, { createGlobalStyle, keyframes } from 'styled-components/macro';
-import { Flex, Box } from 'rebass';
-import { J, A, M } from '../icons';
-import { pink } from '../styles/colors';
+import styled, { createGlobalStyle } from 'styled-components/macro';
 
 function Layout({ children }) {
   return (
     <Wrapper>
-      <Helmet />
-
+      <Helmet>
+        <title>JAMstack Cheatsheet</title>
+      </Helmet>
       {children}
       <GlobalStyle />
     </Wrapper>
@@ -32,7 +29,8 @@ const GlobalStyle = createGlobalStyle`
 	}
 
 	::selection {
-		background-color: ${pink}
+		background-color: #000;
+		color: white;
 	}
 
 	a {
