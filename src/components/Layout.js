@@ -52,6 +52,5 @@ const GlobalStyle = createGlobalStyle`
 `;
 
 const Wrapper = styled.div`
-  padding: 0;
   margin: 0 auto;
 `;
