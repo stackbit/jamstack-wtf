@@ -2,7 +2,13 @@ import React from 'react';
 import { Chapter } from './Chapter';
 import { color } from '../styles/colors';
 import { Box, Text } from 'rebass';
-import { Section, SectionTitle, SectionSubTitle } from './Section';
+import {
+  Section,
+  SectionTitle,
+  SubSectionTitle,
+  SubSection,
+  SubSectionText,
+} from './Section';
 import { ReadMore } from './ReadMore';
 import { JamDiagram } from './JamDiagram';
 import { TimelineDiagram } from './TimelineDiagram';
@@ -34,76 +40,84 @@ export function WhatIsJamstack() {
 
         <JamDiagram />
 
-        <SectionSubTitle>Javascript</SectionSubTitle>
-        <p>
-          Dynamic functionalities are handled by Javascript. There is no
-          restriction on which framework or library you must use.
-        </p>
+        <SubSection>
+          <SubSectionTitle>Javascript</SubSectionTitle>
+          <SubSectionText>
+            Dynamic functionalities are handled by Javascript. There is no
+            restriction on which framework or library you must use.
+          </SubSectionText>
 
-        <SectionSubTitle>APIs</SectionSubTitle>
-        <p>
-          Server side operations are abstracted into reusable APIs and accessed
-          over HTTPS with Javascript. These can be third party services or your
-          custom function.
-        </p>
+          <SubSectionTitle>APIs</SubSectionTitle>
+          <SubSectionText>
+            Server side operations are abstracted into reusable APIs and
+            accessed over HTTPS with Javascript. These can be third party
+            services or your custom function.
+          </SubSectionText>
 
-        <SectionSubTitle>Markup</SectionSubTitle>
-        <p>
-          Web sites are served as static HTML files. These can be generated from
-          source files, such as Markown, using a Static Site Generator.
-        </p>
+          <SubSectionTitle>Markup</SubSectionTitle>
+          <SubSectionText>
+            Web sites are served as static HTML files. These can be generated
+            from source files, such as Markown, using a Static Site Generator.
+          </SubSectionText>
+        </SubSection>
       </Section>
 
       <Section>
         <SectionTitle id="best-practices">Best practices</SectionTitle>
-
-        <SectionSubTitle>Content delivery network</SectionSubTitle>
         <p>
-          Since all the markup and assets are pre-built, they can be served via
-          CDN. This provides better performance and easier scalibility.
+          The following tips will help you leverage the best out of the stack.
         </p>
 
-        <SectionSubTitle>Atomic deploys</SectionSubTitle>
-        <p>
-          Each deploy is a full snapshot of the site. This helps guarantee a
-          consistent version of the site globally.
-        </p>
+        <SubSection>
+          <SubSectionTitle>Content delivery network</SubSectionTitle>
+          <SubSectionText>
+            Since all the markup and assets are pre-built, they can be served
+            via CDN. This provides better performance and easier scalibility.
+          </SubSectionText>
 
-        <SectionSubTitle>Cache invalidation</SectionSubTitle>
-        <p>
-          Once your build is uploaded, the CDN invalidates its cache. This means
-          that your new build is live in an instant.
-        </p>
-        <ReadMore
-          title="Read more about cache invalidation"
-          href="https://www.netlify.com/blog/2015/09/11/instant-cache-invalidation/"
-        >
-          Learn more
-        </ReadMore>
+          <SubSectionTitle>Atomic deploys</SubSectionTitle>
+          <SubSectionText>
+            Each deploy is a full snapshot of the site. This helps guarantee a
+            consistent version of the site globally.
+          </SubSectionText>
 
-        <SectionSubTitle>Everything in version control</SectionSubTitle>
-        <p>
-          Your codebase lives in Version Control System, such as Git. The main
-          benefits are: change history of every file, collaborators and
-          traceability.
-        </p>
-        <ReadMore
-          title="Read more about version control"
-          href="https://www.atlassian.com/git/tutorials/what-is-version-control"
-        >
-          Learn more
-        </ReadMore>
+          <SubSectionTitle>Cache invalidation</SubSectionTitle>
+          <SubSectionText>
+            Once your build is uploaded, the CDN invalidates its cache. This
+            means that your new build is live in an instant.
+          </SubSectionText>
+          <ReadMore
+            title="Read more about cache invalidation"
+            href="https://www.netlify.com/blog/2015/09/11/instant-cache-invalidation/"
+          >
+            Learn more
+          </ReadMore>
 
-        <SectionSubTitle>Automated builds</SectionSubTitle>
-        <p>
-          Your server is notified when a new build is required, typically via
-          webhooks. Server builds the project, updates the CDNs and the site is
-          live.
-        </p>
+          <SubSectionTitle>Everything in version control</SubSectionTitle>
+          <SubSectionText>
+            Your codebase lives in Version Control System, such as Git. The main
+            benefits are: change history of every file, collaborators and
+            traceability.
+          </SubSectionText>
+          <ReadMore
+            title="Read more about version control"
+            href="https://www.atlassian.com/git/tutorials/what-is-version-control"
+          >
+            Learn more
+          </ReadMore>
+
+          <SubSectionTitle>Automated builds</SubSectionTitle>
+          <SubSectionText>
+            Your server is notified when a new build is required, typically via
+            webhooks. Server builds the project, updates the CDNs and the site
+            is live.
+          </SubSectionText>
+        </SubSection>
       </Section>
 
       <Section>
         <SectionTitle id="timeline">Timeline</SectionTitle>
+        <p>A brief history of stack shows its growth in popularity</p>
 
         <TimelineDiagram />
 
@@ -116,37 +130,45 @@ export function WhatIsJamstack() {
 
       <Section>
         <SectionTitle id="workflow">Workflow</SectionTitle>
+        <p>Here's how an ideal JAMstack workflow would look like</p>
 
         <WorkflowDiagram />
       </Section>
 
       <Section hideDivider>
         <SectionTitle id="benefits">Benefits</SectionTitle>
+        <p>Here are the main benefits provided by the JAMstack</p>
 
-        <SectionSubTitle>Faster performance</SectionSubTitle>
-        <p>Serve pre-built markup and assets over a CDN</p>
+        <SubSection>
+          <SubSectionTitle>Faster performance</SubSectionTitle>
+          <SubSectionText>
+            Serve pre-built markup and assets over a CDN
+          </SubSectionText>
 
-        <SectionSubTitle>More secure</SectionSubTitle>
-        <p>No need to worry about server or database vulnerabilities</p>
+          <SubSectionTitle>More secure</SubSectionTitle>
+          <SubSectionText>
+            No need to worry about server or database vulnerabilities
+          </SubSectionText>
 
-        <SectionSubTitle>Less expensive</SectionSubTitle>
-        <p>
-          Hosting of static files are cheap or{' '}
-          <a href="https://netlify.com">even free</a>
-        </p>
+          <SubSectionTitle>Less expensive</SubSectionTitle>
+          <SubSectionText>
+            Hosting of static files are cheap or{' '}
+            <a href="https://netlify.com">even free</a>
+          </SubSectionText>
 
-        <SectionSubTitle>Better developer experience</SectionSubTitle>
-        <p>
-          Front end developers can focus on the front end, without being tight
-          to a monolithic architecture. This usually means quicker and more
-          focused development
-        </p>
+          <SubSectionTitle>Better developer experience</SubSectionTitle>
+          <SubSectionText>
+            Front end developers can focus on the front end, without being tight
+            to a monolithic architecture. This usually means quicker and more
+            focused development
+          </SubSectionText>
 
-        <SectionSubTitle>Scalability</SectionSubTitle>
-        <p>
-          If you're product suddenly goes viral and has many active users, the
-          CDN seamlessly compensates
-        </p>
+          <SubSectionTitle>Scalability</SubSectionTitle>
+          <SubSectionText>
+            If you're product suddenly goes viral and has many active users, the
+            CDN seamlessly compensates
+          </SubSectionText>
+        </SubSection>
       </Section>
     </Chapter>
   );

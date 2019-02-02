@@ -1,6 +1,7 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 import styled, { createGlobalStyle } from 'styled-components/macro';
+import { color } from '../styles/colors';
 
 function Layout({ children }) {
   return (
@@ -22,6 +23,10 @@ const GlobalStyle = createGlobalStyle`
 		padding: 0;
 	}
 
+	html {
+		scroll-behavior: smooth;
+	}
+
 	body {
 		font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 		line-height: 1.5;
@@ -30,7 +35,7 @@ const GlobalStyle = createGlobalStyle`
 	}
 
 	::selection {
-		background-color: #000;
+		background-color: ${color.turq};
 		color: white;
 	}
 

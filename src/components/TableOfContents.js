@@ -8,7 +8,7 @@ export function TableOfContents() {
       <Text as="h3" fontSize={[2, 3]}>
         Table of contents
       </Text>
-      <Box my={[5, 6]} fontSize={[3, 5]}>
+      <Box mt={[4, 5]} fontSize={[3, 4]}>
         <ul style={{ listStyle: 'none' }}>
           <li>
             <a href="#what-is-jamstack">What is JAMstack?</a>
@@ -26,32 +26,32 @@ export function TableOfContents() {
                 <a href="#workflow">Workflow</a>
               </li>
               <li>
-                <a href="#">Benefits</a>
+                <a href="#benefits">Benefits</a>
               </li>
             </Box>
           </li>
           <li>
-            <a href="#">Getting started</a>
+            <a href="#getting-started">Getting started</a>
             <Box as="ul" ml={[4, 5]}>
               <li>
-                <a href="#">Development</a>
+                <a href="#development">Development</a>
               </li>
               <li>
-                <a href="#">Deployment</a>
+                <a href="#deployment">Deployment</a>
               </li>
               <li>
-                <a href="#">Dynamic parts</a>
+                <a href="#dynamic-parts">Dynamic parts</a>
               </li>
               <li>
-                <a href="#">CMS</a>
+                <a href="#cms">CMS</a>
               </li>
             </Box>
           </li>
           <li>
-            <a href="#">Resources</a>
+            <a href="#resources">Resources</a>
           </li>
           <li>
-            <a href="#">Examples</a>
+            <a href="#examples">Examples</a>
           </li>
         </ul>
       </Box>
