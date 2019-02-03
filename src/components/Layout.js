@@ -8,6 +8,10 @@ function Layout({ children }) {
     <Wrapper>
       <Helmet>
         <title>JAMstack Cheatsheet</title>
+        <meta
+          name="description"
+          content="A simple guide to help you get on the JAMstack."
+        />
         <link rel="icon" type="image/png" href="./favicon.png" />
       </Helmet>
       {children}

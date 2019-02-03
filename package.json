@@ -1,7 +1,7 @@
 {
   "name": "jamstack-cheatsheet",
   "private": true,
-  "description": "A straight-to-the-point guide to help you get on the JAMstack.",
+  "description": "A simple guide to help you get on the JAMstack",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
