@@ -133,6 +133,25 @@ export function GettingStarted() {
           <SubSectionText>
             Rely on third party services to integrate a search functionality
           </SubSectionText>
+
+          <SubSectionTitle>Custom functions</SubSectionTitle>
+          <SubSectionText>
+            You can also abstract your own functions into reusabe APIs. For this
+            you can use{' '}
+            <a
+              title="AWS lambda functions"
+              href="https://aws.amazon.com/lambda/features/"
+            >
+              AWS lambda functions
+            </a>{' '}
+            or{' '}
+            <a
+              title="Netlify Functions"
+              href="https://functions.netlify.com/examples/"
+            >
+              Netlify Functions
+            </a>
+          </SubSectionText>
         </SubSection>
         <Box mt={[4, 5]}>
           <ReadMore href="https://github.com/agarrharr/awesome-static-website-services#e-commerce">
@@ -159,6 +178,19 @@ export function GettingStarted() {
           <Li>
             <a title="Contentful" href="http://contentful.com">
               Contentful
+            </a>
+          </Li>
+          <Li>
+            <a
+              title="Headless WordPress"
+              href="https://developer.wordpress.org/rest-api/"
+            >
+              Headless WordPress
+            </a>
+          </Li>
+          <Li>
+            <a title="Ghost" href="https://docs.ghost.org/api/content/">
+              Ghost
             </a>
           </Li>
           <Li>

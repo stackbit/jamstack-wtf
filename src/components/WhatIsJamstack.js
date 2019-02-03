@@ -24,21 +24,14 @@ export function WhatIsJamstack() {
     >
       <Section>
         <SectionTitle id="meaning">Meaning</SectionTitle>
-        <p>
-          JAM stands for Javascript, API &amp; Markup. The term JAMstack was
-          popularised by{' '}
-          <a
-            title="Mathias Biilmann's Twitter"
-            href="https://twitter.com/biilmann"
-          >
-            Mathias Biilmann
-          </a>{' '}
-          (CEO &amp; Co-founder of Netlify).
-        </p>
+        <p>JAM stands for Javascript, API &amp; Markup.</p>
 
         <Text as="blockquote" my={[4, 5]} pl={[4, 5]} color={color.grey}>
           "A modern web development architecture based on client-side
           JavaScript, reusable APIs, and prebuilt Markup"
+          <Text as="p" fontSize={1} mt={2}>
+            — Mathias Biilmann (CEO & Co-founder of Netlify).
+          </Text>
         </Text>
 
         <JamDiagram />
@@ -61,6 +54,42 @@ export function WhatIsJamstack() {
           <SubSectionText>
             Web sites are served as static HTML files. These can be generated
             from source files, such as Markown, using a Static Site Generator.
+          </SubSectionText>
+        </SubSection>
+      </Section>
+
+      <Section>
+        <SectionTitle id="benefits">Benefits</SectionTitle>
+        <p>Here are the main benefits provided by the JAMstack</p>
+
+        <SubSection>
+          <SubSectionTitle>Faster performance</SubSectionTitle>
+          <SubSectionText>
+            Serve pre-built markup and assets over a CDN
+          </SubSectionText>
+
+          <SubSectionTitle>More secure</SubSectionTitle>
+          <SubSectionText>
+            No need to worry about server or database vulnerabilities
+          </SubSectionText>
+
+          <SubSectionTitle>Less expensive</SubSectionTitle>
+          <SubSectionText>
+            Hosting of static files are cheap or{' '}
+            <a href="https://netlify.com">even free</a>
+          </SubSectionText>
+
+          <SubSectionTitle>Better developer experience</SubSectionTitle>
+          <SubSectionText>
+            Front end developers can focus on the front end, without being tight
+            to a monolithic architecture. This usually means quicker and more
+            focused development
+          </SubSectionText>
+
+          <SubSectionTitle>Scalability</SubSectionTitle>
+          <SubSectionText>
+            If you're product suddenly goes viral and has many active users, the
+            CDN seamlessly compensates
           </SubSectionText>
         </SubSection>
       </Section>
@@ -119,6 +148,13 @@ export function WhatIsJamstack() {
       </Section>
 
       <Section>
+        <SectionTitle id="workflow">Workflow</SectionTitle>
+        <p>Here's how an ideal JAMstack workflow would look like</p>
+
+        <WorkflowDiagram />
+      </Section>
+
+      <Section hideDivider>
         <SectionTitle id="timeline">Timeline</SectionTitle>
         <p>A brief history of stack shows its growth in popularity</p>
 
@@ -129,49 +165,6 @@ export function WhatIsJamstack() {
             Source: SnipCart
           </ReadMore>
         </Box>
-      </Section>
-
-      <Section>
-        <SectionTitle id="workflow">Workflow</SectionTitle>
-        <p>Here's how an ideal JAMstack workflow would look like</p>
-
-        <WorkflowDiagram />
-      </Section>
-
-      <Section hideDivider>
-        <SectionTitle id="benefits">Benefits</SectionTitle>
-        <p>Here are the main benefits provided by the JAMstack</p>
-
-        <SubSection>
-          <SubSectionTitle>Faster performance</SubSectionTitle>
-          <SubSectionText>
-            Serve pre-built markup and assets over a CDN
-          </SubSectionText>
-
-          <SubSectionTitle>More secure</SubSectionTitle>
-          <SubSectionText>
-            No need to worry about server or database vulnerabilities
-          </SubSectionText>
-
-          <SubSectionTitle>Less expensive</SubSectionTitle>
-          <SubSectionText>
-            Hosting of static files are cheap or{' '}
-            <a href="https://netlify.com">even free</a>
-          </SubSectionText>
-
-          <SubSectionTitle>Better developer experience</SubSectionTitle>
-          <SubSectionText>
-            Front end developers can focus on the front end, without being tight
-            to a monolithic architecture. This usually means quicker and more
-            focused development
-          </SubSectionText>
-
-          <SubSectionTitle>Scalability</SubSectionTitle>
-          <SubSectionText>
-            If you're product suddenly goes viral and has many active users, the
-            CDN seamlessly compensates
-          </SubSectionText>
-        </SubSection>
       </Section>
     </Chapter>
   );

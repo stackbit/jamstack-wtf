@@ -18,16 +18,16 @@ export function TableOfContents() {
                 <a href="#meaning">Meaning</a>
               </li>
               <li>
-                <a href="#best-practices">Best practices</a>
+                <a href="#benefits">Benefits</a>
               </li>
               <li>
-                <a href="#timeline">Timeline</a>
+                <a href="#best-practices">Best practices</a>
               </li>
               <li>
                 <a href="#workflow">Workflow</a>
               </li>
               <li>
-                <a href="#benefits">Benefits</a>
+                <a href="#timeline">Timeline</a>
               </li>
             </Box>
           </li>
