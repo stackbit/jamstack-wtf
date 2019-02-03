@@ -6,11 +6,11 @@ export const ReadMore = styled(Box)`
   border-bottom: 2px solid ${color.grey};
   display: inline-block;
   color: ${color.grey};
-  transition: all 100ms ease;
+  text-decoration: none;
 
   &:hover {
-    color: ${color.turq};
-    border-color: ${color.turq};
+    color: ${color.pink};
+    border-color: ${color.pink};
   }
 `;
 

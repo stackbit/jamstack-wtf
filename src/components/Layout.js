@@ -41,7 +41,7 @@ const GlobalStyle = createGlobalStyle`
 	}
 
 	a {
-		text-decoration: none;
+		text-decoration: underline;
 		color: inherit;
 	}
 
@@ -58,6 +58,14 @@ const GlobalStyle = createGlobalStyle`
 
 	ol {
 		list-style-position: inside
+	}
+
+	a {
+		transition: all 133ms ease;
+
+		&:hover {
+      color: ${color.pink};
+    }
 	}
 
 `;

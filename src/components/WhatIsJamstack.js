@@ -33,10 +33,13 @@ export function WhatIsJamstack() {
           >
             Mathias Biilmann
           </a>{' '}
-          (CEO &amp; Co-founder of Netlify) to describe "a modern web
-          development architecture based on client-side JavaScript, reusable
-          APIs, and prebuilt Markup".
+          (CEO &amp; Co-founder of Netlify).
         </p>
+
+        <Text as="blockquote" my={[4, 5]} pl={[4, 5]} color={color.grey}>
+          "A modern web development architecture based on client-side
+          JavaScript, reusable APIs, and prebuilt Markup"
+        </Text>
 
         <JamDiagram />
 

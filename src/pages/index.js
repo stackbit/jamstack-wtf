@@ -1,24 +1,24 @@
 import React from 'react';
-import styled from 'styled-components';
-import { Flex, Box, Card, Text } from 'rebass';
+import { Flex, Box, Text } from 'rebass';
 import Layout from '../components/Layout';
 import { TableOfContents } from '../components/TableOfContents';
 import { color } from '../styles/colors';
 import { GettingStarted } from '../components/GettingStarted';
 import { WhatIsJamstack } from '../components/WhatIsJamstack';
+import { Resources } from '../components/Resources';
+import { About } from '../components/About';
 
 export default function() {
   return (
     <Layout>
       <Box px={[4, 5, 6]} py={[4, 5]} bg={color.black} color="white">
-        <Flex flexWrap="wrap">
-          <Text as="h1" fontSize={[2, 3]} mr="2" flex="0 0 auto">
-            JAMstack
-          </Text>
-          <Text as="h2" fontSize={[2, 3]} color={color.grey} flex="0 0 auto">
+        <Text as="h1" fontSize={[2, 3]}>
+          JAMstack{' '}
+          <Text as="span" color={color.grey} ml="1">
             Cheatsheet
           </Text>
-        </Flex>
+        </Text>
+
         <Box my={[5, 6]} fontSize={[3, 5]} style={{ maxWidth: '720px' }}>
           <Text as="p">
             JAMstack is revolutionising the way we think about workflow by
@@ -35,6 +35,8 @@ export default function() {
       <TableOfContents />
       <WhatIsJamstack />
       <GettingStarted />
+      <Resources />
+      <About />
     </Layout>
   );
 }

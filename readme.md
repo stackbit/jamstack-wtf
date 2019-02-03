@@ -12,6 +12,6 @@
 
 ## About
 
-This project was put together by [Pedro Duarte](https://ped.ro) and presented at the [JAMstack conf in London](https://www.meetup.com/JAMstack-London/events/257961818/).
+This project was put together by [@peduarte](https://twitter.com/peduarte) and presented at the [JAMstack conf in London](https://www.meetup.com/JAMstack-London/events/257961818/).
 
-The goal of this cheatsheet to is gather the concept of JAMstack in a straight-forward guide to encourage other developers to adopt the workflow.
+The goal of this cheatsheet is to gather the concept of JAMstack in a straight-forward guide to encourage other developers to adopt the workflow.

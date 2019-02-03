@@ -136,7 +136,7 @@ export function GettingStarted() {
         </SubSection>
         <Box mt={[4, 5]}>
           <ReadMore href="https://github.com/agarrharr/awesome-static-website-services#e-commerce">
-            See more examples
+            See more static services
           </ReadMore>
         </Box>
       </Section>
@@ -168,7 +168,9 @@ export function GettingStarted() {
           </Li>
         </Ul>
         <Box mt={[4, 5]}>
-          <ReadMore href="https://headlesscms.org/">See more CMS</ReadMore>
+          <ReadMore href="https://headlesscms.org/">
+            See more CMS services
+          </ReadMore>
         </Box>
       </Section>
     </Chapter>

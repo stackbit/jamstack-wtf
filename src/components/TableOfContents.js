@@ -1,4 +1,5 @@
 import React from 'react';
+import styled from 'styled-components';
 import { Box, Text } from 'rebass';
 import { color } from '../styles/colors';
 
@@ -9,7 +10,7 @@ export function TableOfContents() {
         Table of contents
       </Text>
       <Box mt={[4, 5]} fontSize={[3, 4]}>
-        <ul style={{ listStyle: 'none' }}>
+        <List>
           <li>
             <a href="#what-is-jamstack">What is JAMstack?</a>
             <Box as="ul" ml={[4, 5]}>
@@ -51,10 +52,25 @@ export function TableOfContents() {
             <a href="#resources">Resources</a>
           </li>
           <li>
-            <a href="#examples">Examples</a>
+            <a href="#about">About</a>
           </li>
-        </ul>
+        </List>
       </Box>
     </Box>
   );
 }
+
+const List = styled.ul`
+  &,
+  ul {
+    list-style: none;
+  }
+
+  a {
+    text-decoration: none;
+
+    &:hover {
+      color: black;
+    }
+  }
+`;

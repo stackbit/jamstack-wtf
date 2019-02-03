@@ -13,7 +13,7 @@ Ul.defaultProps = {
 
 export const Li = styled(Text)`
   border-bottom: 1px solid;
-  transition: all 100ms ease;
+  transition: all 133ms ease;
 
   &:not(:hover) {
     color: ${color.grey};
@@ -21,6 +21,12 @@ export const Li = styled(Text)`
 
   a {
     display: block;
+    text-decoration: none;
+    transition: none;
+
+    &:hover {
+      color: inherit;
+    }
   }
 `;
 Li.defaultProps = {

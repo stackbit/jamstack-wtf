@@ -18,7 +18,7 @@ export function WorkflowDiagram() {
       <Stem />
       <Circle>Version Control</Circle>
       <Stem />
-      <Item bg={color.orange}>Deployment</Item>
+      <Item bg={color.orange}>Deploy</Item>
       <Stem />
       <Circle>Build static assets</Circle>
       <Stem />
