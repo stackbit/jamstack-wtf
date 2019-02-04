@@ -14,6 +14,32 @@ export function Resources() {
         </p>
 
         <SubSection>
+          <SubSectionTitle>Services</SubSectionTitle>
+          <Ul>
+            <Li>
+              <a href="https://github.com/agarrharr/awesome-static-website-services">
+                Awesome Static Website Services
+              </a>
+            </Li>
+            <Li>
+              <a href="https://headlesscms.org/">
+                A List of Content Management Systems for JAMstack Sites
+              </a>
+            </Li>
+            <Li>
+              <a href="https://www.staticgen.com/">
+                A List of Static Site Generators for JAMstack Sites
+              </a>
+            </Li>
+            <Li>
+              <a href="https://www.thenewdynamic.org/tool/">
+                A curated collection of tools and services
+              </a>
+            </Li>
+          </Ul>
+        </SubSection>
+
+        <SubSection>
           <SubSectionTitle>Articles</SubSectionTitle>
           <Ul>
             <Li>
@@ -81,32 +107,6 @@ export function Resources() {
             <Li>
               <a href="https://www.heavybit.com/library/podcasts/jamstack-radio/">
                 JAMstack Radio
-              </a>
-            </Li>
-          </Ul>
-        </SubSection>
-
-        <SubSection>
-          <SubSectionTitle>Services</SubSectionTitle>
-          <Ul>
-            <Li>
-              <a href="https://github.com/agarrharr/awesome-static-website-services">
-                Awesome Static Website Services
-              </a>
-            </Li>
-            <Li>
-              <a href="https://headlesscms.org/">
-                A List of Content Management Systems for JAMstack Sites
-              </a>
-            </Li>
-            <Li>
-              <a href="https://www.staticgen.com/">
-                A List of Static Site Generators for JAMstack Sites
-              </a>
-            </Li>
-            <Li>
-              <a href="https://www.thenewdynamic.org/tool/">
-                A curated collection of tools and services
               </a>
             </Li>
           </Ul>

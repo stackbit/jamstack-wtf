@@ -52,6 +52,9 @@ export function GettingStarted() {
               </a>
             </Li>
           </Ul>
+          <Box mt={[4, 5]}>
+            <ReadMore href="https://www.staticgen.com/">See more SSGs</ReadMore>
+          </Box>
 
           <SubSectionTitle>Frontend Framework</SubSectionTitle>
           <SubSectionText>
@@ -103,6 +106,11 @@ export function GettingStarted() {
             </a>
           </Li>
         </Ul>
+        <Box mt={[4, 5]}>
+          <ReadMore href="https://www.thenewdynamic.org/tools/hosting-deployment/">
+            See more deployment services
+          </ReadMore>
+        </Box>
       </Section>
 
       <Section>
@@ -113,6 +121,25 @@ export function GettingStarted() {
         </p>
 
         <SubSection>
+          <SubSectionTitle>Custom functions</SubSectionTitle>
+          <SubSectionText>
+            You can also abstract your own functions into reusabe APIs. For this
+            you can use{' '}
+            <a
+              title="AWS lambda functions"
+              href="https://aws.amazon.com/lambda/features/"
+            >
+              AWS lambda functions
+            </a>{' '}
+            or{' '}
+            <a
+              title="Netlify Functions"
+              href="https://functions.netlify.com/examples/"
+            >
+              Netlify Functions
+            </a>
+          </SubSectionText>
+
           <SubSectionTitle>Comments</SubSectionTitle>
           <SubSectionText>
             Many JAMstack products have dynamic comment sections. These are
@@ -132,25 +159,6 @@ export function GettingStarted() {
           <SubSectionTitle>Search</SubSectionTitle>
           <SubSectionText>
             Rely on third party services to integrate a search functionality
-          </SubSectionText>
-
-          <SubSectionTitle>Custom functions</SubSectionTitle>
-          <SubSectionText>
-            You can also abstract your own functions into reusabe APIs. For this
-            you can use{' '}
-            <a
-              title="AWS lambda functions"
-              href="https://aws.amazon.com/lambda/features/"
-            >
-              AWS lambda functions
-            </a>{' '}
-            or{' '}
-            <a
-              title="Netlify Functions"
-              href="https://functions.netlify.com/examples/"
-            >
-              Netlify Functions
-            </a>
           </SubSectionText>
         </SubSection>
         <Box mt={[4, 5]}>

@@ -52,8 +52,8 @@ export function WhatIsJamstack() {
 
           <SubSectionTitle>Markup</SubSectionTitle>
           <SubSectionText>
-            Web sites are served as static HTML files. These can be generated
-            from source files, such as Markown, using a Static Site Generator.
+            Websites are served as static HTML files. These can be generated
+            from source files, such as Markdown, using a Static Site Generator.
           </SubSectionText>
         </SubSection>
       </Section>
@@ -81,14 +81,14 @@ export function WhatIsJamstack() {
 
           <SubSectionTitle>Better developer experience</SubSectionTitle>
           <SubSectionText>
-            Front end developers can focus on the front end, without being tight
+            Front end developers can focus on the front end, without being tied
             to a monolithic architecture. This usually means quicker and more
             focused development
           </SubSectionText>
 
           <SubSectionTitle>Scalability</SubSectionTitle>
           <SubSectionText>
-            If you're product suddenly goes viral and has many active users, the
+            If your product suddenly goes viral and has many active users, the
             CDN seamlessly compensates
           </SubSectionText>
         </SubSection>
@@ -106,12 +106,24 @@ export function WhatIsJamstack() {
             Since all the markup and assets are pre-built, they can be served
             via CDN. This provides better performance and easier scalibility.
           </SubSectionText>
+          <ReadMore
+            title="Read more about CDN"
+            href="https://www.cloudflare.com/learning/cdn/what-is-a-cdn/"
+          >
+            Learn more
+          </ReadMore>
 
           <SubSectionTitle>Atomic deploys</SubSectionTitle>
           <SubSectionText>
             Each deploy is a full snapshot of the site. This helps guarantee a
             consistent version of the site globally.
           </SubSectionText>
+          <ReadMore
+            title="Read more about atomic deploys"
+            href="https://buddy.works/blog/introducing-atomic-deployments#what-are-atomic-deployments"
+          >
+            Learn more
+          </ReadMore>
 
           <SubSectionTitle>Cache invalidation</SubSectionTitle>
           <SubSectionText>
@@ -144,6 +156,12 @@ export function WhatIsJamstack() {
             webhooks. Server builds the project, updates the CDNs and the site
             is live.
           </SubSectionText>
+          <ReadMore
+            title="Read more about automated builds"
+            href="https://www.agilealliance.org/glossary/automated-build"
+          >
+            Learn more
+          </ReadMore>
         </SubSection>
       </Section>
 
