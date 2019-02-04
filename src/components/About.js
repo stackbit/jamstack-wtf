@@ -23,7 +23,7 @@ export function About() {
           <A href="https://twitter.com/peduarte">@peduarte</A> and presented at
           the{' '}
           <A href="https://www.meetup.com/JAMstack-London/events/257961818/">
-            JAMstack conf
+            JAMstack meetup
           </A>{' '}
           in London.
         </p>
