@@ -10,7 +10,20 @@ function Layout({ children }) {
         <title>JAMstack Cheatsheet</title>
         <meta
           name="description"
-          content="A simple guide to help you get on the JAMstack."
+          content="A simple guide to help you get on the JAMstack"
+        />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@peduarte" />
+        <meta name="twitter:creator" content="@peduarte" />
+        <meta name="twitter:title" content="JAMstack Cheatsheet" />
+        <meta
+          name="twitter:description"
+          content="A simple guide to help you get on the JAMstack"
+        />
+        <meta name="twitter:url" content="https://jamstack.wtf" />
+        <meta
+          name="twitter:image"
+          content="https://jamstack.wtf/postcard.png"
         />
         <link rel="icon" type="image/png" href="./favicon.png" />
       </Helmet>
