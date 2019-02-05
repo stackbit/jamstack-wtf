@@ -6,43 +6,49 @@ import { color } from '../styles/colors';
 
 const { NODE_ENV } = process.env;
 
-function Layout({ children }) {
-  if (NODE_ENV === 'production') {
-    ReactGA.initialize('UA-28314827-7');
-    ReactGA.pageview(window.location.pathname + window.location.search);
+class Layout extends React.Component {
+  componentDidMount() {
+    if (NODE_ENV === 'production') {
+      ReactGA.initialize('UA-28314827-7');
+      ReactGA.pageview(window.location.pathname + window.location.search);
+    }
   }
 
-  return (
-    <Wrapper>
-      <Helmet>
-        <title>JAMstack Cheatsheet</title>
-        <meta
-          name="description"
-          content="A simple guide to help you get on the JAMstack"
+  render() {
+    const { children } = this.props;
+
+    return (
+      <Wrapper>
+        <Helmet>
+          <title>JAMstack Cheatsheet</title>
+          <meta
+            name="description"
+            content="A simple guide to help you get on the JAMstack"
+          />
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:site" content="@peduarte" />
+          <meta name="twitter:creator" content="@peduarte" />
+          <meta name="twitter:title" content="JAMstack Cheatsheet" />
+          <meta
+            name="twitter:description"
+            content="A simple guide to help you get on the JAMstack"
+          />
+          <meta name="twitter:url" content="https://jamstack.wtf" />
+          <meta
+            name="twitter:image"
+            content="https://jamstack.wtf/postcard.png"
+          />
+          <link rel="icon" type="image/png" href="./favicon.png" />
+        </Helmet>
+        {children}
+        <GlobalStyle />
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=UA-28314827-7"
         />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@peduarte" />
-        <meta name="twitter:creator" content="@peduarte" />
-        <meta name="twitter:title" content="JAMstack Cheatsheet" />
-        <meta
-          name="twitter:description"
-          content="A simple guide to help you get on the JAMstack"
-        />
-        <meta name="twitter:url" content="https://jamstack.wtf" />
-        <meta
-          name="twitter:image"
-          content="https://jamstack.wtf/postcard.png"
-        />
-        <link rel="icon" type="image/png" href="./favicon.png" />
-      </Helmet>
-      {children}
-      <GlobalStyle />
-      <script
-        async
-        src="https://www.googletagmanager.com/gtag/js?id=UA-28314827-7"
-      />
-    </Wrapper>
-  );
+      </Wrapper>
+    );
+  }
 }
 
 export default Layout;
