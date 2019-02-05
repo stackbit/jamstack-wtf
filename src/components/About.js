@@ -27,10 +27,19 @@ export function About() {
           </A>{' '}
           in London.
         </p>
-        <Text mt="5">
+        <Text as="p" mt="5">
           The goal of this cheatsheet is to gather the concept of JAMstack in a
           straight-forward guide to encourage other developers to adopt the
           workflow.
+        </Text>
+        <Text as="p" mt="5">
+          Built with <A href="https://www.gatsbyjs.org/">Gatsby</A>, hosted on{' '}
+          <A href="https://netlify.com">Netlify</A> and open sourced on{' '}
+          <A href="https://github.com/peduarte/jamstack-cheatsheet">Github</A>.
+        </Text>
+
+        <Text as="p" mt="5">
+          JAMstack.
         </Text>
       </Section>
     </Box>
