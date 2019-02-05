@@ -18,13 +18,15 @@ export function WorkflowDiagram() {
       <Stem />
       <Circle>Version Control</Circle>
       <Stem />
-      <Item bg={color.orange}>Deploy</Item>
+      <Item bg={color.orange}>Automated build</Item>
       <Stem />
-      <Circle>Build static assets</Circle>
+      <Circle>Static assets</Circle>
+      <Stem />
+      <Circle>Atomic deploy</Circle>
       <Stem />
       <Circle>Pre-render &amp; invalidate cache</Circle>
       <Stem />
-      <Item bg={color.pink}>Project is live</Item>
+      <Item bg={color.pink}>Update CDN</Item>
     </Flex>
   );
 }

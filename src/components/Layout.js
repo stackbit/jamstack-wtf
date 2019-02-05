@@ -1,9 +1,12 @@
 import React from 'react';
 import Helmet from 'react-helmet';
+import ReactGA from 'react-ga';
 import styled, { createGlobalStyle } from 'styled-components/macro';
 import { color } from '../styles/colors';
 
 function Layout({ children }) {
+  ReactGA.initialize('UA-28314827-7');
+
   return (
     <Wrapper>
       <Helmet>
@@ -29,6 +32,10 @@ function Layout({ children }) {
       </Helmet>
       {children}
       <GlobalStyle />
+      <script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=UA-28314827-7"
+      />
     </Wrapper>
   );
 }
