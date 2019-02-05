@@ -60,7 +60,7 @@ export function GettingStarted() {
           <SubSectionText>
             Most frameworks don't output static HTML files, however it is
             possible to do that but it requires more tooling experience and
-            maintainance.
+            maintenance.
           </SubSectionText>
           <Ul>
             <Li>
@@ -123,8 +123,8 @@ export function GettingStarted() {
         <SubSection>
           <SubSectionTitle>Custom functions</SubSectionTitle>
           <SubSectionText>
-            You can also abstract your own functions into reusabe APIs. For this
-            you can use{' '}
+            You can also abstract your own functions into reusable APIs. For
+            this you can use{' '}
             <a
               title="AWS lambda functions"
               href="https://aws.amazon.com/lambda/features/"

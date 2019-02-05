@@ -104,7 +104,7 @@ export function WhatIsJamstack() {
           <SubSectionTitle>Content delivery network</SubSectionTitle>
           <SubSectionText>
             Since all the markup and assets are pre-built, they can be served
-            via CDN. This provides better performance and easier scalibility.
+            via CDN. This provides better performance and easier scalability.
           </SubSectionText>
           <ReadMore
             title="Read more about CDN"
