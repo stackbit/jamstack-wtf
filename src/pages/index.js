@@ -22,8 +22,8 @@ export default function() {
         <Box my={[5, 6]} fontSize={[3, 5]} style={{ maxWidth: '720px' }}>
           <Text as="p">
             JAMstack is revolutionising the way we think about workflow by
-            providing a simpler developer experience, performance, cost and
-            scalability.
+            providing a simpler developer experience, better performance, lower
+            cost and greater scalability.
           </Text>
           <Text mt="5">
             This simple guide will help you understand why it exists and how to

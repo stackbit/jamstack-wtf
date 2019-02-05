@@ -9,6 +9,7 @@ const { NODE_ENV } = process.env;
 function Layout({ children }) {
   if (NODE_ENV === 'production') {
     ReactGA.initialize('UA-28314827-7');
+    ReactGA.pageview(window.location.pathname + window.location.search);
   }
 
   return (
