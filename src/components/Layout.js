@@ -4,8 +4,12 @@ import ReactGA from 'react-ga';
 import styled, { createGlobalStyle } from 'styled-components/macro';
 import { color } from '../styles/colors';
 
+const { NODE_ENV } = process.env;
+
 function Layout({ children }) {
-  ReactGA.initialize('UA-28314827-7');
+  if (NODE_ENV === 'production') {
+    ReactGA.initialize('UA-28314827-7');
+  }
 
   return (
     <Wrapper>
