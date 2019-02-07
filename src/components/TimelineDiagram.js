@@ -28,7 +28,7 @@ export function TimelineDiagram() {
         The modern web revolution starts prioritising the importance of
         performance, scalability and developer experience. The term JAMstack
         starts to be adopted by a wider group of developers and the first
-        enterprise JAMtack projects are announced.
+        enterprise JAMstack projects are announced.
       </TimelineItem>
       <Stem />
       <TimelineItem bg={color.blue} title="2018">
