@@ -25,6 +25,9 @@ export function About() {
           <A href="https://www.meetup.com/JAMstack-London/events/257961818/">
             JAMstack meetup
           </A>{' '}
+          <A href="https://speakerdeck.com/peduarte/jamstack-cheatsheet">
+            (decks here)
+          </A>{' '}
           in London.
         </p>
         <Text as="p" mt="5">
