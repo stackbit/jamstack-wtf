@@ -24,7 +24,7 @@ export function WhatIsJamstack() {
     >
       <Section>
         <SectionTitle id="meaning">Meaning</SectionTitle>
-        <p>JAM stands for Javascript, API &amp; Markup.</p>
+        <p>JAM stands for JavaScript, API &amp; Markup.</p>
 
         <Text as="blockquote" my={[4, 5]} pl={[4, 5]} color={color.grey}>
           "A modern web development architecture based on client-side
@@ -37,16 +37,16 @@ export function WhatIsJamstack() {
         <JamDiagram />
 
         <SubSection>
-          <SubSectionTitle>Javascript</SubSectionTitle>
+          <SubSectionTitle>JavaScript</SubSectionTitle>
           <SubSectionText>
-            Dynamic functionalities are handled by Javascript. There is no
+            Dynamic functionalities are handled by JavaScript. There is no
             restriction on which framework or library you must use.
           </SubSectionText>
 
           <SubSectionTitle>APIs</SubSectionTitle>
           <SubSectionText>
             Server side operations are abstracted into reusable APIs and
-            accessed over HTTPS with Javascript. These can be third party
+            accessed over HTTPS with JavaScript. These can be third party
             services or your custom function.
           </SubSectionText>
 
