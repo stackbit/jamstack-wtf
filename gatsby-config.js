@@ -1,10 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: 'JAMstack Cheatsheet',
+    title: 'JAMstack WTF',
     author: 'Pedro Duarte',
-    description:
-      'A straight-to-the-point guide to help you get on the JAMstack.',
-    siteUrl: 'https://jamstack-cheatsheet.netlify.com',
+    description: 'A simple guide to help you get on the JAMstack',
+    siteUrl: 'https://jamstack.wtf',
     social: {
       twitter: '@peduarte',
     },

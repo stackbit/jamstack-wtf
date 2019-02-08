@@ -20,7 +20,7 @@ class Layout extends React.Component {
     return (
       <Wrapper>
         <Helmet>
-          <title>JAMstack Cheatsheet</title>
+          <title>WTF is JAMstack?</title>
           <meta
             name="description"
             content="A simple guide to help you get on the JAMstack"
@@ -28,7 +28,7 @@ class Layout extends React.Component {
           <meta name="twitter:card" content="summary_large_image" />
           <meta name="twitter:site" content="@peduarte" />
           <meta name="twitter:creator" content="@peduarte" />
-          <meta name="twitter:title" content="JAMstack Cheatsheet" />
+          <meta name="twitter:title" content="WTF is JAMstack?" />
           <meta
             name="twitter:description"
             content="A simple guide to help you get on the JAMstack"
@@ -42,10 +42,6 @@ class Layout extends React.Component {
         </Helmet>
         {children}
         <GlobalStyle />
-        <script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=UA-28314827-7"
-        />
       </Wrapper>
     );
   }

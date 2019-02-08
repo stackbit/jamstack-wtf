@@ -1,5 +1,5 @@
 {
-  "name": "jamstack-cheatsheet",
+  "name": "jamstack-wtf",
   "private": true,
   "description": "A simple guide to help you get on the JAMstack",
   "version": "0.1.0",
@@ -34,7 +34,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/peduarte/jamstack-cheatsheet"
+    "url": "https://github.com/peduarte/jamstack-wtf"
   },
   "husky": {
     "hooks": {

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Flex, Box, Text } from 'rebass';
+import { Box, Text } from 'rebass';
 import Layout from '../components/Layout';
 import { TableOfContents } from '../components/TableOfContents';
 import { color } from '../styles/colors';
@@ -15,7 +15,7 @@ export default function() {
         <Text as="h1" fontSize={[2, 3]}>
           JAMstack{' '}
           <Text as="span" color={color.grey} ml="1">
-            Cheatsheet
+            WTF
           </Text>
         </Text>
 
