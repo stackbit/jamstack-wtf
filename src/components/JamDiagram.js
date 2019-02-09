@@ -12,7 +12,7 @@ export function JamDiagram() {
       style={{ textAlign: 'center' }}
     >
       <Item bg={color.turq} borderRadius="16px 4px 4px 4px">
-        Javascript
+        JavaScript
       </Item>
       <Item bg={color.orange} mx="6px" borderRadius="4px">
         APIs
