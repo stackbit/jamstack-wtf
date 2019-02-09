@@ -184,6 +184,11 @@ export function GettingStarted() {
             </a>
           </Li>
           <Li>
+            <a title="Forestry.io" href="https://forestry.io">
+              Forestry.io
+            </a>
+          </Li>
+          <Li>
             <a title="Contentful" href="http://contentful.com">
               Contentful
             </a>
