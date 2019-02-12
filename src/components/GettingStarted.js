@@ -206,6 +206,11 @@ export function GettingStarted() {
               Strapi
             </a>
           </Li>
+          <Li>
+            <a title="Forestry" href="https://forestry.io/">
+              Forestry
+            </a>
+          </Li>    
         </Ul>
         <Box mt={[4, 5]}>
           <ReadMore href="https://headlesscms.org/">
