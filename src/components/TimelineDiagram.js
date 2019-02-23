@@ -32,7 +32,7 @@ export function TimelineDiagram() {
       </TimelineItem>
       <Stem />
       <TimelineItem bg={color.blue} title="2018">
-        Tool likes Netlify, Gatsby and Contentful have helped promote the term
+        Tools like Netlify, Gatsby and Contentful have helped promote the term
         and the community is rapidly growing. This was also the year of the
         first JAMstack Conference.
       </TimelineItem>
