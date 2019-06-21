@@ -139,6 +139,18 @@ export function GettingStarted() {
               Netlify Functions
             </a>
           </SubSectionText>
+    
+          <SubSectionTitle>Custom data</SubSectionTitle>
+          <SubSectionText>
+            As you add features to your site, you may want to store user profiles, 
+            shopping cart data, game levels, or other dynamic data.{' '}
+            <a
+              title="FaunaDB Serverless GraphQL"
+              href="https://fauna.com/"
+            >
+              FaunaDB Serverless GraphQL
+            </a>
+          </SubSectionText>
 
           <SubSectionTitle>Comments</SubSectionTitle>
           <SubSectionText>
