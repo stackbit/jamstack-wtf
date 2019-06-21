@@ -143,7 +143,8 @@ export function GettingStarted() {
           <SubSectionTitle>Custom data</SubSectionTitle>
           <SubSectionText>
             As you add features to your site, you may want to store user profiles, 
-            shopping cart data, game levels, or other dynamic data.{' '}
+            shopping cart data, game levels, or other dynamic data. Get started for
+            free with{' '}
             <a
               title="FaunaDB Serverless GraphQL"
               href="https://fauna.com/"
