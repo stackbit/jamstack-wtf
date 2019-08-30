@@ -100,6 +100,23 @@ export function Resources() {
             </Li>
           </Ul>
         </SubSection>
+    
+        <SubSection>
+          <SubSectionTitle>Books</SubSectionTitle>
+          <Ul>
+            <Li>
+              <a href="https://www.netlify.com/oreilly-jamstack/">
+                Modern Web Development on the JAMstack (O'Reilly, 2019)
+              </a>
+            </Li>
+            <Li>
+              <a href="http://shop.oreilly.com/product/0636920051879.do">
+                Working with Static Sites (O'Reilly, 2017)
+              </a>
+            </Li>
+          </Ul>
+        </SubSection>
+    
 
         <SubSection>
           <SubSectionTitle>Podcast</SubSectionTitle>
