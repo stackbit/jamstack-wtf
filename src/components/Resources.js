@@ -111,6 +111,18 @@ export function Resources() {
             </Li>
           </Ul>
         </SubSection>
+    
+        <SubSection>
+          <SubSectionTitle>Community</SubSectionTitle>
+          <Ul>
+            <Li>
+              <a href="https://www.jamstack.org/slack">
+                JAMstack community Slack
+              </a>
+            </Li>
+          </Ul>
+        </SubSection>
+    
       </Section>
     </Chapter>
   );
