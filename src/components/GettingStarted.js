@@ -210,7 +210,12 @@ export function GettingStarted() {
             <a title="Forestry" href="https://forestry.io/">
               Forestry
             </a>
-          </Li>    
+          </Li>
+              <Li>
+            <a title="Sanity" href="https://www.sanity.io/">
+              Sanity
+            </a>
+          </Li> 
         </Ul>
         <Box mt={[4, 5]}>
           <ReadMore href="https://headlesscms.org/">
