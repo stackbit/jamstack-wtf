@@ -105,6 +105,11 @@ export function GettingStarted() {
               Github Pages
             </a>
           </Li>
+          <Li>
+            <a title="Stackbit" href="https://www.stackbit.com/">
+              Stackbit
+            </a>
+          </Li>
         </Ul>
         <Box mt={[4, 5]}>
           <ReadMore href="https://www.thenewdynamic.org/tools/hosting-deployment/">
@@ -210,7 +215,7 @@ export function GettingStarted() {
             <a title="Forestry" href="https://forestry.io/">
               Forestry
             </a>
-          </Li>    
+          </Li>
         </Ul>
         <Box mt={[4, 5]}>
           <ReadMore href="https://headlesscms.org/">

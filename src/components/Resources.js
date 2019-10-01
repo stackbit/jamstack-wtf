@@ -32,6 +32,11 @@ export function Resources() {
               </a>
             </Li>
             <Li>
+              <a href="https://jamstackthemes.dev/">
+                A List of Themes and Starters for JAMstack Sites
+              </a>
+            </Li>
+            <Li>
               <a href="https://www.thenewdynamic.org/tool/">
                 A curated collection of tools and services
               </a>
