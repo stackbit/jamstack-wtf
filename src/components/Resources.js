@@ -36,6 +36,11 @@ export function Resources() {
                 A curated collection of tools and services
               </a>
             </Li>
+            <Li>
+              <a href="https://jamstackthemes.dev/">
+                A curated collection of themes filterable by static site generator and supported CMS
+              </a>
+            </Li>
           </Ul>
         </SubSection>
 
