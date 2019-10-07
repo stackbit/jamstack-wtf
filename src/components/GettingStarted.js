@@ -229,6 +229,11 @@ export function GettingStarted() {
               Forestry
             </a>
           </Li>
+          <Li>
+            <a title="Sanity" href="https://www.sanity.io/">
+              Sanity.io
+            </a>
+          </Li> 
         </Ul>
         <Box mt={[4, 5]}>
           <ReadMore href="https://headlesscms.org/">
