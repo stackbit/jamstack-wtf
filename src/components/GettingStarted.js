@@ -105,6 +105,11 @@ export function GettingStarted() {
               Github Pages
             </a>
           </Li>
+          <Li>
+            <a title="Stackbit" href="https://www.stackbit.com/">
+              Stackbit
+            </a>
+          </Li>
         </Ul>
         <Box mt={[4, 5]}>
           <ReadMore href="https://www.thenewdynamic.org/tools/hosting-deployment/">
@@ -137,6 +142,19 @@ export function GettingStarted() {
               href="https://functions.netlify.com/examples/"
             >
               Netlify Functions
+            </a>
+          </SubSectionText>
+    
+          <SubSectionTitle>Custom data</SubSectionTitle>
+          <SubSectionText>
+            As you add features to your site, you may want to store user profiles, 
+            shopping cart data, game levels, or other dynamic data. Get started for
+            free with{' '}
+            <a
+              title="FaunaDB Serverless GraphQL"
+              href="https://fauna.com/"
+            >
+              FaunaDB Serverless GraphQL
             </a>
           </SubSectionText>
 
@@ -211,9 +229,9 @@ export function GettingStarted() {
               Forestry
             </a>
           </Li>
-              <Li>
+          <Li>
             <a title="Sanity" href="https://www.sanity.io/">
-              Sanity
+              Sanity.io
             </a>
           </Li> 
         </Ul>

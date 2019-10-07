@@ -32,6 +32,11 @@ export function Resources() {
               </a>
             </Li>
             <Li>
+              <a href="https://jamstackthemes.dev/">
+                A List of Themes and Starters for JAMstack Sites
+              </a>
+            </Li>
+            <Li>
               <a href="https://www.thenewdynamic.org/tool/">
                 A curated collection of tools and services
               </a>
@@ -100,6 +105,23 @@ export function Resources() {
             </Li>
           </Ul>
         </SubSection>
+    
+        <SubSection>
+          <SubSectionTitle>Books</SubSectionTitle>
+          <Ul>
+            <Li>
+              <a href="https://www.netlify.com/oreilly-jamstack/">
+                Modern Web Development on the JAMstack (O'Reilly, 2019)
+              </a>
+            </Li>
+            <Li>
+              <a href="http://shop.oreilly.com/product/0636920051879.do">
+                Working with Static Sites (O'Reilly, 2017)
+              </a>
+            </Li>
+          </Ul>
+        </SubSection>
+    
 
         <SubSection>
           <SubSectionTitle>Podcast</SubSectionTitle>
@@ -111,6 +133,18 @@ export function Resources() {
             </Li>
           </Ul>
         </SubSection>
+    
+        <SubSection>
+          <SubSectionTitle>Community</SubSectionTitle>
+          <Ul>
+            <Li>
+              <a href="https://www.jamstack.org/slack">
+                JAMstack community Slack
+              </a>
+            </Li>
+          </Ul>
+        </SubSection>
+    
       </Section>
     </Chapter>
   );
