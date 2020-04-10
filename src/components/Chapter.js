@@ -1,29 +1,14 @@
 import React from 'react';
-import styled from 'styled-components';
-import { Box, Text } from 'rebass';
-import { color } from '../styles/colors';
+import { Box, Text, Divider } from '@peduarte/wallop-system';
 
-export function Chapter({ title, id, bg, color, children }) {
+export function Chapter({ title, id, children, ...props }) {
   return (
-    <Box p={[4, 5, 6]} bg={bg} color={color}>
-      <ChapterTitle id={id}>{title}</ChapterTitle>
+    <Box p={['4', '5', '6']} {...props}>
+      <Text as="h2" size="5" id={id}>
+        {title}
+      </Text>
+      <Divider size="1" my={3} mx="0" />
       {children}
     </Box>
   );
 }
-
-const ChapterTitle = styled(Text)`
-  &:after {
-    content: '';
-    display: block;
-    width: 32px;
-    height: 0;
-    border-top: 2px solid ${color.grey};
-    opacity: 0.5;
-    margin: 15px 0;
-  }
-`;
-ChapterTitle.defaultProps = {
-  as: 'h2',
-  fontSize: [3, 4],
-};

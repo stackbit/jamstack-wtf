@@ -1,8 +1,7 @@
 import React from 'react';
-import { Box, Text } from 'rebass';
+import { Container, Box, Text } from '@peduarte/wallop-system';
 import Layout from '../components/Layout';
 import { TableOfContents } from '../components/TableOfContents';
-import { color } from '../styles/colors';
 import { GettingStarted } from '../components/GettingStarted';
 import { WhatIsJamstack } from '../components/WhatIsJamstack';
 import { Resources } from '../components/Resources';
@@ -11,25 +10,25 @@ import { About } from '../components/About';
 export default function() {
   return (
     <Layout>
-      <Box px={[4, 5, 6]} py={[4, 5]} bg={color.black} color="white">
-        <Text as="h1" fontSize={[2, 3]}>
+      <Box px={[4, 5, 6]} py={[4, 5]} sx={{ bg: 'black', color: 'white' }}>
+        <Text as="h1" size="4">
           JAMstack{' '}
-          <Text as="span" color={color.grey} ml="1">
+          <Text as="span" ml="1" sx={{ color: 'gray' }}>
             WTF
           </Text>
         </Text>
 
-        <Box my={[5, 6]} fontSize={[3, 5]} style={{ maxWidth: '720px' }}>
-          <Text as="p">
+        <Container my={[5, 6]} mx="0">
+          <Text as="p" size="6" as="p">
             JAMstack is revolutionising the way we think about workflow by
             providing a simpler developer experience, better performance, lower
             cost and greater scalability.
           </Text>
-          <Text mt="5">
+          <Text as="p" size="6" mt={5}>
             This simple guide will help you understand why it exists and how to
             get started.
           </Text>
-        </Box>
+        </Container>
       </Box>
 
       <TableOfContents />

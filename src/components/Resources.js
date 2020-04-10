@@ -1,45 +1,52 @@
 import React from 'react';
+import { Text, Link } from '@peduarte/wallop-system';
 import { Chapter } from './Chapter';
-import { color } from '../styles/colors';
 import { Section, SubSectionTitle, SubSection } from './Section';
 import { Ul, Li } from './SimpleList';
 
 export function Resources() {
   return (
-    <Chapter title="Resources" id="resources" bg={color.black} color="white">
+    <Chapter
+      title="Resources"
+      id="resources"
+      sx={{ bg: 'black', color: 'white' }}
+    >
       <Section hideDivider>
-        <p>
+        <Text as="p" size="5">
           Here's a list of hand-picked JAMstack resources ranging from learning
           materials to third party services.
-        </p>
+        </Text>
 
         <SubSection>
           <SubSectionTitle>Services</SubSectionTitle>
           <Ul>
             <Li>
-              <a href="https://github.com/agarrharr/awesome-static-website-services">
+              <Link
+                variant="ghost"
+                href="https://github.com/agarrharr/awesome-static-website-services"
+              >
                 Awesome Static Website Services
-              </a>
+              </Link>
             </Li>
             <Li>
-              <a href="https://headlesscms.org/">
+              <Link variant="ghost" href="https://headlesscms.org/">
                 A List of Content Management Systems for JAMstack Sites
-              </a>
+              </Link>
             </Li>
             <Li>
-              <a href="https://www.staticgen.com/">
+              <Link variant="ghost" href="https://www.staticgen.com/">
                 A List of Static Site Generators for JAMstack Sites
-              </a>
+              </Link>
             </Li>
             <Li>
-              <a href="https://jamstackthemes.dev/">
+              <Link variant="ghost" href="https://jamstackthemes.dev/">
                 A List of Themes and Starters for JAMstack Sites
-              </a>
+              </Link>
             </Li>
             <Li>
-              <a href="https://www.thenewdynamic.org/tool/">
+              <Link variant="ghost" href="https://www.thenewdynamic.org/tool/">
                 A curated collection of tools and services
-              </a>
+              </Link>
             </Li>
           </Ul>
         </SubSection>
@@ -48,34 +55,46 @@ export function Resources() {
           <SubSectionTitle>Articles</SubSectionTitle>
           <Ul>
             <Li>
-              <a href="https://snipcart.com/blog/jamstack">
+              <Link variant="ghost" href="https://snipcart.com/blog/jamstack">
                 New to JAMstack? Everything You Need to Know to Get Started
-              </a>
+              </Link>
             </Li>
             <Li>
-              <a href="https://www.quora.com/What-is-the-concept-behind-JAMstack">
+              <Link
+                variant="ghost"
+                href="https://www.quora.com/What-is-the-concept-behind-JAMstack"
+              >
                 What is the concept behind JAMstack
-              </a>
+              </Link>
             </Li>
             <Li>
-              <a href="https://bejamas.io/blog/jamstack-modern-web-development/">
+              <Link
+                variant="ghost"
+                href="https://bejamas.io/blog/jamstack-modern-web-development/"
+              >
                 JAMstack modern web development
-              </a>
+              </Link>
             </Li>
             <Li>
-              <a href="https://www.netlify.com/blog/2017/03/16/smashing-magazine-just-got-10x-faster/">
+              <Link
+                variant="ghost"
+                href="https://www.netlify.com/blog/2017/03/16/smashing-magazine-just-got-10x-faster/"
+              >
                 Smashing Magazine just got 10x faster
-              </a>
+              </Link>
             </Li>
             <Li>
-              <a href="https://blog.ghost.org/jamstack/">
+              <Link variant="ghost" href="https://blog.ghost.org/jamstack/">
                 Ghost on the JAMstack
-              </a>
+              </Link>
             </Li>
             <Li>
-              <a href="https://medium.com/netlify/jamstack-with-gatsby-netlify-and-netlify-cms-a300735e2c5d">
+              <Link
+                variant="ghost"
+                href="https://medium.com/netlify/jamstack-with-gatsby-netlify-and-netlify-cms-a300735e2c5d"
+              >
                 JAMstack with Gatsby, Netlify and Netlify CMS
-              </a>
+              </Link>
             </Li>
           </Ul>
         </SubSection>
@@ -84,67 +103,80 @@ export function Resources() {
           <SubSectionTitle>Videos</SubSectionTitle>
           <Ul>
             <Li>
-              <a href="https://www.youtube.com/watch?v=uWTMEDEPw8c">
+              <Link
+                variant="ghost"
+                href="https://www.youtube.com/watch?v=uWTMEDEPw8c"
+              >
                 The Rise of the JAMstack talk by Mathias Biilmann
-              </a>
+              </Link>
             </Li>
             <Li>
-              <a href="https://vimeo.com/163522126">
+              <Link variant="ghost" href="https://vimeo.com/163522126">
                 The New Front-end Stack talk by Mathias Biilmann
-              </a>
+              </Link>
             </Li>
             <Li>
-              <a href="https://www.thenewdynamic.org/video/">
+              <Link variant="ghost" href="https://www.thenewdynamic.org/video/">
                 The New Dynamic curated videos
-              </a>
+              </Link>
             </Li>
             <Li>
-              <a href="https://www.youtube.com/watch?v=e5H7CI3yqPY">
+              <Link
+                variant="ghost"
+                href="https://www.youtube.com/watch?v=e5H7CI3yqPY"
+              >
                 How freeCodeCamp Serves Millions of Learners Using the JAMstack
-              </a>
+              </Link>
             </Li>
           </Ul>
         </SubSection>
-    
+
         <SubSection>
           <SubSectionTitle>Books</SubSectionTitle>
           <Ul>
             <Li>
-              <a href="https://www.netlify.com/oreilly-jamstack/">
+              <Link
+                variant="ghost"
+                href="https://www.netlify.com/oreilly-jamstack/"
+              >
                 Modern Web Development on the JAMstack (O'Reilly, 2019)
-              </a>
+              </Link>
             </Li>
             <Li>
-              <a href="http://shop.oreilly.com/product/0636920051879.do">
+              <Link
+                variant="ghost"
+                href="http://shop.oreilly.com/product/0636920051879.do"
+              >
                 Working with Static Sites (O'Reilly, 2017)
-              </a>
+              </Link>
             </Li>
           </Ul>
         </SubSection>
-    
 
         <SubSection>
           <SubSectionTitle>Podcast</SubSectionTitle>
           <Ul>
             <Li>
-              <a href="https://www.heavybit.com/library/podcasts/jamstack-radio/">
+              <Link
+                variant="ghost"
+                href="https://www.heavybit.com/library/podcasts/jamstack-radio/"
+              >
                 JAMstack Radio
-              </a>
+              </Link>
             </Li>
           </Ul>
         </SubSection>
-    
+
         <SubSection>
           <SubSectionTitle>Community</SubSectionTitle>
           <Ul>
             <Li>
-              <a href="https://www.jamstack.org/slack">
+              <Link variant="ghost" href="https://www.jamstack.org/slack">
                 JAMstack community Slack
-              </a>
+              </Link>
             </Li>
           </Ul>
         </SubSection>
-    
       </Section>
     </Chapter>
   );

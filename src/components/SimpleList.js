@@ -1,34 +1,38 @@
-import styled from 'styled-components';
-import { Box, Text } from 'rebass';
-import { color } from '../styles/colors';
+import React from 'react';
+import { Box, Text } from '@peduarte/wallop-system';
 
-export const Ul = styled(Box)`
-  list-style: none;
-`;
-Ul.defaultProps = {
-  as: 'ul',
-  fontSize: [2, 3],
-  mt: [3, 4],
-};
+export const Ul = props => (
+  <Box
+    as="ul"
+    mt={('3', '4')}
+    {...props}
+    sx={{
+      listStyle: 'none',
+      ...props.sx,
+    }}
+  />
+);
 
-export const Li = styled(Text)`
-  border-bottom: 1px solid;
-  transition: all 133ms ease;
-
-  &:not(:hover) {
-    color: ${color.grey};
-  }
-
-  a {
-    display: block;
-    text-decoration: none;
-    transition: none;
-
-    &:hover {
-      color: inherit;
-    }
-  }
-`;
-Li.defaultProps = {
-  as: 'li',
-};
+export const Li = props => (
+  <li>
+    <Text
+      as="p"
+      size="4"
+      sx={{
+        '&:not(:hover)': {
+          color: 'gray',
+        },
+        // '&:hover': { color: 'black' },
+        '& a': {
+          display: 'block',
+          lineHeight: 'inherit',
+          color: 'inherit',
+          borderBottom: '1px solid',
+          '&:hover': { color: 'inherit' },
+        },
+      }}
+    >
+      {props.children}
+    </Text>
+  </li>
+);
