@@ -1,7 +1,6 @@
 import React from 'react';
 import { Chapter } from './Chapter';
-import { color } from '../styles/colors';
-import { Box, Text } from 'rebass';
+import { Box, Text, Link } from '@peduarte/wallop-system';
 import {
   Section,
   SectionTitle,
@@ -19,17 +18,27 @@ export function WhatIsJamstack() {
     <Chapter
       title="What is JAMstack"
       id="what-is-jamstack"
-      bg={color.black}
-      color="white"
+      sx={{
+        bg: 'black',
+        color: 'white',
+      }}
     >
       <Section>
         <SectionTitle id="meaning">Meaning</SectionTitle>
-        <p>JAM stands for JavaScript, API &amp; Markup.</p>
+        <Text as="p" size="5">
+          JAM stands for JavaScript, API &amp; Markup.
+        </Text>
 
-        <Text as="blockquote" my={[4, 5]} pl={[4, 5]} color={color.grey}>
+        <Text
+          as="blockquote"
+          my={[4, 5]}
+          pl={[4, 5]}
+          size="5"
+          sx={{ color: 'gray' }}
+        >
           "A modern web development architecture based on client-side
           JavaScript, reusable APIs, and prebuilt Markup"
-          <Text as="p" fontSize={1} mt={2}>
+          <Text as="p" size="2" mt={3}>
             — Mathias Biilmann (CEO & Co-founder of Netlify).
           </Text>
         </Text>
@@ -60,7 +69,9 @@ export function WhatIsJamstack() {
 
       <Section>
         <SectionTitle id="benefits">Benefits</SectionTitle>
-        <p>Here are the main benefits provided by the JAMstack</p>
+        <Text as="p" size="5">
+          Here are the main benefits provided by the JAMstack
+        </Text>
 
         <SubSection>
           <SubSectionTitle>Faster performance</SubSectionTitle>
@@ -76,7 +87,9 @@ export function WhatIsJamstack() {
           <SubSectionTitle>Less expensive</SubSectionTitle>
           <SubSectionText>
             Hosting of static files are cheap or{' '}
-            <a href="https://netlify.com">even free</a>
+            <Link href="https://netlify.com" color="pink">
+              even free
+            </Link>
           </SubSectionText>
 
           <SubSectionTitle>Better developer experience</SubSectionTitle>
@@ -96,9 +109,9 @@ export function WhatIsJamstack() {
 
       <Section>
         <SectionTitle id="best-practices">Best practices</SectionTitle>
-        <p>
+        <Text as="p" size="5">
           The following tips will help you leverage the best out of the stack.
-        </p>
+        </Text>
 
         <SubSection>
           <SubSectionTitle>Content delivery network</SubSectionTitle>
@@ -167,18 +180,22 @@ export function WhatIsJamstack() {
 
       <Section>
         <SectionTitle id="workflow">Workflow</SectionTitle>
-        <p>Here's how an ideal JAMstack workflow would look like</p>
+        <Text as="p" size="5">
+          Here's how an ideal JAMstack workflow would look like
+        </Text>
 
         <WorkflowDiagram />
       </Section>
 
       <Section hideDivider>
         <SectionTitle id="timeline">Timeline</SectionTitle>
-        <p>A brief history of stack shows its growth in popularity</p>
+        <Text as="p" size="5">
+          A brief history of stack shows its growth in popularity
+        </Text>
 
         <TimelineDiagram />
 
-        <Box fontSize={[1, 3]} mt={[4, 5]}>
+        <Box fontSize={['1', '3']} mt={[4, 5]}>
           <ReadMore href="https://snipcart.com/blog/jamstack">
             Source: SnipCart
           </ReadMore>

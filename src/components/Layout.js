@@ -2,7 +2,7 @@ import React from 'react';
 import Helmet from 'react-helmet';
 import ReactGA from 'react-ga';
 import styled, { createGlobalStyle } from 'styled-components/macro';
-import { color } from '../styles/colors';
+import { theme } from '@peduarte/wallop-system';
 
 const { NODE_ENV } = process.env;
 
@@ -18,7 +18,7 @@ class Layout extends React.Component {
     const { children } = this.props;
 
     return (
-      <Wrapper>
+      <>
         <Helmet>
           <title>WTF is JAMstack?</title>
           <meta
@@ -42,7 +42,7 @@ class Layout extends React.Component {
         </Helmet>
         {children}
         <GlobalStyle />
-      </Wrapper>
+      </>
     );
   }
 }
@@ -59,48 +59,12 @@ const GlobalStyle = createGlobalStyle`
 		scroll-behavior: smooth;
 	}
 
-	body {
-		font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-		line-height: 1.5;
-		font-size: 18px;
-		color: #161314;
-	}
-
 	::selection {
-		background-color: ${color.turq};
+		background-color: ${theme.colors.turq};
 		color: white;
 	}
 
-	a {
-		text-decoration: underline;
-		color: inherit;
-	}
-
-	h1,
-	h2,
-	h3,
-	h4 {
-		font-weight: 400;
-	}
-
-	ul {
+	ul, ol {
 		list-style-position: inside
 	}
-
-	ol {
-		list-style-position: inside
-	}
-
-	a {
-		transition: all 133ms ease;
-
-		&:hover {
-      color: ${color.pink};
-    }
-	}
-
-`;
-
-const Wrapper = styled.div`
-  margin: 0 auto;
 `;

@@ -1,7 +1,5 @@
 import React from 'react';
-import styled from 'styled-components';
-import { Box, Text } from 'rebass';
-import { color } from '../styles/colors';
+import { Box, Text, Link } from '@peduarte/wallop-system';
 import { Section } from './Section';
 
 export function About() {
@@ -10,47 +8,79 @@ export function About() {
       m={[4, 5]}
       mt={[-4, -5]}
       p={[4, 5]}
-      bg={color.pink}
-      color="white"
-      fontSize={[3, 5]}
+      sx={{
+        bg: 'pink',
+        color: 'white',
+      }}
     >
-      <Text as="h3" fontSize={[2, 3]}>
+      <Text as="h3" size="4">
         About
       </Text>
       <Section hideDivider>
-        <p>
+        <Text as="p" size="5">
           This project was put together by{' '}
-          <A href="https://twitter.com/peduarte">@peduarte</A> and presented at
-          the{' '}
-          <A href="https://www.meetup.com/JAMstack-London/events/257961818/">
+          <Link
+            sx={{ color: 'white' }}
+            color="black"
+            href="https://twitter.com/peduarte"
+          >
+            @peduarte
+          </Link>{' '}
+          and presented at the{' '}
+          <Link
+            sx={{ color: 'white' }}
+            color="black"
+            href="https://www.meetup.com/JAMstack-London/events/257961818/"
+          >
             JAMstack meetup
-          </A>{' '}
-          <A href="https://speakerdeck.com/peduarte/jamstack-cheatsheet">
-            (decks here)
-          </A>{' '}
-          in London.
-        </p>
-        <Text as="p" mt="5">
+          </Link>{' '}
+          in London. The decks are available{' '}
+          <Link
+            sx={{ color: 'white' }}
+            color="black"
+            href="https://speakerdeck.com/peduarte/jamstack-cheatsheet"
+          >
+            here
+          </Link>
+          .
+        </Text>
+        <Text as="p" mt="5" size="5">
           The goal of this guide is to gather the concept of JAMstack in a
           straight-forward guide to encourage other developers to adopt the
           workflow.
         </Text>
-        <Text as="p" mt="5">
-          Built with <A href="https://www.gatsbyjs.org/">Gatsby</A>, hosted on{' '}
-          <A href="https://netlify.com">Netlify</A> and open sourced on{' '}
-          <A href="https://github.com/peduarte/jamstack-wtf">Github</A>.
+        <Text as="p" mt="5" size="5">
+          Built with{' '}
+          <Link
+            sx={{ color: 'white' }}
+            color="black"
+            href="https://www.gatsbyjs.org/"
+          >
+            Gatsby
+          </Link>
+          , hosted on{' '}
+          <Link
+            sx={{ color: 'white' }}
+            color="black"
+            href="https://netlify.com"
+          >
+            Netlify
+          </Link>{' '}
+          and open sourced on{' '}
+          <Link
+            sx={{ color: 'white' }}
+            color="black"
+            href="https://github.com/peduarte/jamstack-wtf"
+          >
+            Github
+          </Link>
+          .
         </Text>
 
-        <Text as="p" mt="5">
+        <Text as="p" mt="5" size="5">
           JAMstack.
         </Text>
       </Section>
     </Box>
   );
 }
-
-const A = styled.a`
-  &:hover {
-    color: ${color.black};
-  }
-`;

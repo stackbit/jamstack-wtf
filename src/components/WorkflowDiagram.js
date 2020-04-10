@@ -1,24 +1,23 @@
 import React from 'react';
-import styled from 'styled-components';
-import { Flex, Box, Card } from 'rebass';
-import { color } from '../styles/colors';
+import { Flex, Box, Text } from '@peduarte/wallop-system';
 
 export function WorkflowDiagram() {
   return (
     <Flex
       mt={[5, 6]}
       mx="auto"
-      flexDirection="column"
-      alignItems="center"
-      justifyContent="center"
-      fontSize={[1, 3]}
-      style={{ maxWidth: '360px' }}
+      sx={{
+        flexDirection: 'column',
+        alignItems: 'center',
+        justifyContent: 'center',
+        maxWidth: '360px',
+      }}
     >
-      <Item bg={color.turq}>Develop</Item>
+      <Item sx={{ bg: 'turq' }}>Develop</Item>
       <Stem />
       <Circle>Version Control</Circle>
       <Stem />
-      <Item bg={color.orange}>Automated build</Item>
+      <Item sx={{ bg: 'orange' }}>Automated build</Item>
       <Stem />
       <Circle>Static assets</Circle>
       <Stem />
@@ -26,40 +25,51 @@ export function WorkflowDiagram() {
       <Stem />
       <Circle>Pre-render &amp; invalidate cache</Circle>
       <Stem />
-      <Item bg={color.pink}>Update CDN</Item>
+      <Item sx={{ bg: 'pink' }}>Update CDN</Item>
     </Flex>
   );
 }
 
-const Item = styled(Card)`
-  text-align: center;
-`;
-Item.defaultProps = {
-  flex: 1,
-  py: 4,
-  color: color.black,
-  width: '100%',
-  borderRadius: '16px',
-};
+const Item = props => (
+  <Box
+    {...props}
+    py="4"
+    sx={{
+      textAlign: 'center',
+      flex: '1',
+      color: 'black',
+      width: '100%',
+      borderRadius: '16px',
+      ...props.sx,
+    }}
+  >
+    <Text size="4">{props.children}</Text>
+  </Box>
+);
 
-const Circle = styled(Card)`
-  display: flex;
-  height: 150px;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-`;
-Circle.defaultProps = {
-  width: '150px',
-  borderRadius: '100%',
-  border: '3px solid white',
-  fontSize: 2,
-};
+const Circle = props => (
+  <Box
+    {...props}
+    sx={{
+      display: 'flex',
+      height: '150px',
+      alignItems: 'center',
+      justifyContent: 'center',
+      textAlign: 'center',
+      width: '150px',
+      borderRadius: '100%',
+      border: '3px solid white',
+    }}
+  >
+    <Text size="3">{props.children}</Text>
+  </Box>
+);
 
-const Stem = styled(Box)`
-  width: 3px;
-`;
-Stem.defaultProps = {
-  pt: [4, 5],
-  bg: 'white',
-};
+const Stem = props => (
+  <Box
+    mx="auto"
+    pt={['4', '5']}
+    {...props}
+    sx={{ width: '3px', bg: 'white' }}
+  />
+);

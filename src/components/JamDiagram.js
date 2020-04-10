@@ -1,30 +1,23 @@
 import React from 'react';
-import styled from 'styled-components';
-import { color } from '../styles/colors';
-import { Flex, Card } from 'rebass';
+import { Flex, Box, Text } from '@peduarte/wallop-system';
 
 export function JamDiagram() {
   return (
-    <Flex
-      my={[5, 6]}
-      fontSize={[1, 3]}
-      flexWrap="wrap"
-      style={{ textAlign: 'center' }}
-    >
-      <Item bg={color.turq} borderRadius="16px 4px 4px 4px">
+    <Flex my={[5, 6]} sx={{ flexWrap: 'wrap', textAlign: 'center' }}>
+      <Item sx={{ bg: 'turq', borderRadius: '16px 4px 4px 4px' }}>
         JavaScript
       </Item>
-      <Item bg={color.orange} mx="6px" borderRadius="4px">
+      <Item mx="6px" sx={{ bg: 'orange', borderRadius: '4px' }}>
         APIs
       </Item>
-      <Item bg={color.pink} borderRadius="4px 16px 4px 4px">
-        Markup
-      </Item>
+      <Item sx={{ bg: 'pink', borderRadius: '4px 16px 4px 4px' }}>Markup</Item>
       <Item
-        flex="1 1 100%"
         mt="6px"
-        bg="white"
-        borderRadius="4px 4px 16px 16px"
+        sx={{
+          flex: '1 1 100%',
+          bg: 'white',
+          borderRadius: '4px 4px 16px 16px',
+        }}
       >
         JAM
       </Item>
@@ -32,9 +25,8 @@ export function JamDiagram() {
   );
 }
 
-const Item = styled(Card)``;
-Item.defaultProps = {
-  flex: 1,
-  py: 4,
-  color: color.black,
-};
+const Item = ({ children, sx, ...props }) => (
+  <Box py="4" {...props} sx={{ flex: 1, color: 'black', ...sx }}>
+    <Text size="4">{children}</Text>
+  </Box>
+);

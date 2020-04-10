@@ -1,54 +1,32 @@
 import React from 'react';
-import styled from 'styled-components';
-import { Box, Text } from 'rebass';
-import { color } from '../styles/colors';
+import { Box, Text, Container, Divider } from '@peduarte/wallop-system';
 
 export const Section = ({ hideDivider, children }) => (
   <React.Fragment>
-    <Box my={[5, 6]} fontSize={[3, 4]} style={{ maxWidth: '720px' }}>
+    <Container my={[5, 6]} mx={0}>
       {children}
-    </Box>
-    {!hideDivider && <Divider />}
+      {!hideDivider && <Divider my={[5, 6]} />}
+    </Container>
   </React.Fragment>
 );
 
-export const SectionTitle = styled(Text)`
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  font-weight: 700;
-`;
-SectionTitle.defaultProps = {
-  as: 'h3',
-  fontSize: 2,
-  mb: [4, 5],
-};
+export const SectionTitle = props => (
+  <Text
+    as="h3"
+    size="3"
+    mb={['4', '5']}
+    weight="bold"
+    sx={{ textTransform: 'uppercase', letterSpacing: '1px' }}
+    {...props}
+  />
+);
 
-export const SubSection = styled(Box)``;
-SubSection.defaultProps = {
-  ml: [4, 5],
-};
+export const SubSection = props => <Box ml={['4', '5']} {...props} />;
 
-export const SubSectionTitle = styled(Text)``;
-SubSectionTitle.defaultProps = {
-  as: 'h4',
-  fontSize: [2, 3],
-  mt: [5, 6],
-};
+export const SubSectionTitle = props => (
+  <Text as="h4" size="4" mt="5" {...props} />
+);
 
-export const SubSectionText = styled(Text)``;
-SubSectionText.defaultProps = {
-  as: 'p',
-  fontSize: [2, 3],
-  color: color.grey,
-};
-
-const Divider = styled(Box)`
-  border: none;
-  border-top: 2px solid ${color.grey};
-  height: 0;
-  max-width: 720px;
-`;
-Divider.defaultProps = {
-  as: 'hr',
-  my: [5, 6],
-};
+export const SubSectionText = props => (
+  <Text as="p" size="4" sx={{ color: 'gray' }} {...props} />
+);
