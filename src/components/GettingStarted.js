@@ -99,8 +99,8 @@ export function GettingStarted() {
             </Link>
           </Li>
           <Li>
-            <Link variant="ghost" title="Zeit" href="https://zeit.co/">
-              Zeit
+            <Link variant="ghost" title="Vercel" href="https://vercel.com/">
+              Vercel
             </Link>
           </Li>
           <Li>
