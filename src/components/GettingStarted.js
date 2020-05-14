@@ -164,7 +164,7 @@ export function GettingStarted() {
             profiles, shopping cart data, game levels, or other dynamic data.
             Get started for free with{' '}
             <Link
-              variant="ghost"
+              color="pink"
               title="FaunaDB Serverless GraphQL"
               href="https://fauna.com/"
             >
