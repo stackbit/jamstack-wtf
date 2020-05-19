@@ -45,12 +45,20 @@ export function About() {
           .
         </Text>
         <Text as="p" mt="5" size="5">
-          The goal of this guide is to gather the concept of JAMstack in a
-          straight-forward guide to encourage other developers to adopt the
+          The goal of this project is to gather the concept of JAMstack in a
+          straight-forward way to encourage other developers to adopt the
           workflow.
         </Text>
         <Text as="p" mt="5" size="5">
           Built with{' '}
+          <Link
+            sx={{ color: 'white' }}
+            color="black"
+            href="https://ped.ro/blog/wallop-system-built-with-modulz"
+          >
+            Wallop System
+          </Link>
+          ,{' '}
           <Link
             sx={{ color: 'white' }}
             color="black"
