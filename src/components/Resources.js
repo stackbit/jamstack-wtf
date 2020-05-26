@@ -166,6 +166,20 @@ export function Resources() {
             </Li>
           </Ul>
         </SubSection>
+    
+        <SubSection>
+          <SubSectionTitle>Report</SubSectionTitle>
+          <Ul>
+            <Li>
+              <Link
+                variant="ghost"
+                href="https://tracker.kontent.ai/942894/the-state-of-jamstack-report-2020"
+              >
+                The State of Jamstack 2020 Report
+              </Link>
+            </Li>
+          </Ul>
+        </SubSection>
 
         <SubSection>
           <SubSectionTitle>Community</SubSectionTitle>
