@@ -173,7 +173,7 @@ export function Resources() {
             <Li>
               <Link
                 variant="ghost"
-                href="https://bit.ly/jamstack-report"
+                href="https://tracker.kontent.ai/942894/the-state-of-jamstack-report-2020"
               >
                 The State of Jamstack 2020 Report
               </Link>
