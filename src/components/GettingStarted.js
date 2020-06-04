@@ -261,6 +261,11 @@ export function GettingStarted() {
               Sanity.io
             </Link>
           </Li>
+          <Li>
+            <Link variant="ghost" title="Kontent" href="https://www.kontent.ai/">
+              Kontent
+            </Link>
+          </Li>
         </Ul>
         <Box mt={[4, 5]}>
           <ReadMore href="https://headlesscms.org/">
