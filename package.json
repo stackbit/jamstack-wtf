@@ -13,7 +13,7 @@
     "format": "prettier --write '{gatsby-*.js,src/**/*.{js,jsx,json,css}}'"
   },
   "dependencies": {
-    "@peduarte/wallop-system": "0.21.0",
+    "@peduarte/wallop-system": "0.23.0",
     "babel-plugin-styled-components": "^1.10.7",
     "gatsby": "^2.20.16",
     "gatsby-plugin-catch-links": "^2.2.1",
