@@ -15,3 +15,5 @@
 This project was put together by [@peduarte](https://twitter.com/peduarte) and presented at the [JAMstack meetup](https://www.meetup.com/JAMstack-London/events/257961818/) ([decks here](https://speakerdeck.com/peduarte/jamstack-cheatsheet)) in London.
 
 The goal of this guide is to gather the concept of JAMstack in a straight-forward guide to encourage other developers to adopt the workflow.
+
+Built with [Wallop System](https://ped.ro/blog/wallop-system-built-with-modulz), [Gatsby](https://www.gatsbyjs.org/) and hosted on [Netlify](https://netlify.com/).

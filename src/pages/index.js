@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Box, Text } from '@peduarte/wallop-system';
+import { Container, Box, Text, Link } from '@peduarte/wallop-system';
 import Layout from '../components/Layout';
 import { TableOfContents } from '../components/TableOfContents';
 import { GettingStarted } from '../components/GettingStarted';
@@ -10,6 +10,17 @@ import { About } from '../components/About';
 export default function() {
   return (
     <Layout>
+      <Box px={[4, 5, 6]} py={[3, 4]}>
+        <Text as="h1" size="4">
+          Black Lives Matter.{' '}
+          <Link
+            href="https://support.eji.org/give/153413/#!/donation/checkout"
+            title="Support the Equal Justice Initiative"
+          >
+            Support the Equal Justice Initiative.
+          </Link>
+        </Text>
+      </Box>
       <Box px={[4, 5, 6]} py={[4, 5]} sx={{ bg: 'black', color: 'white' }}>
         <Text as="h1" size="4">
           JAMstack{' '}

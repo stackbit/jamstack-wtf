@@ -262,7 +262,11 @@ export function GettingStarted() {
             </Link>
           </Li>
           <Li>
-            <Link variant="ghost" title="Kontent" href="https://www.kontent.ai/">
+            <Link
+              variant="ghost"
+              title="Kontent"
+              href="https://www.kontent.ai/"
+            >
               Kontent
             </Link>
           </Li>
