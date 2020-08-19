@@ -222,6 +222,15 @@ export function GettingStarted() {
           <Li>
             <Link
               variant="ghost"
+              title="GraphCMS"
+              href="http://graphcms.com"
+            >
+              GraphCMS
+            </Link>
+          </Li>
+          <Li>
+            <Link
+              variant="ghost"
               title="Contentful"
               href="http://contentful.com"
             >
