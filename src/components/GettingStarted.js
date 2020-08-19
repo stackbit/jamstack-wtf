@@ -270,6 +270,15 @@ export function GettingStarted() {
               Kontent
             </Link>
           </Li>
+          <Li>
+            <Link
+              variant="ghost"
+              title="GraphCMS"
+              href="http://graphcms.com"
+            >
+              GraphCMS
+            </Link>
+          </Li>
         </Ul>
         <Box mt={[4, 5]}>
           <ReadMore href="https://headlesscms.org/">
