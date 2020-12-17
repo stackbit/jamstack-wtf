@@ -121,6 +121,11 @@ export function GettingStarted() {
               Stackbit
             </Link>
           </Li>
+          <Li>
+            <Link variant="ghost" title="Meli" href="https://github.com/getmeli/meli">
+              Meli
+            </Link>
+          </Li>
         </Ul>
         <Box mt={[4, 5]}>
           <ReadMore href="https://www.thenewdynamic.org/tools/hosting-deployment/">
