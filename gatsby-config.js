@@ -14,5 +14,12 @@ module.exports = {
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-styled-components',
     'gatsby-plugin-netlify',
+    {
+      resolve: 'gatsby-plugin-segment-js',
+      options: {
+        prodKey: 'xNJvH4ktNfpAXwFVGDyrU9gpGGH7Whri',
+        trackPage: true,
+      },
+    },
   ],
 };
