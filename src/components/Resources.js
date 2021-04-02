@@ -70,7 +70,7 @@ export function Resources() {
             <Li>
               <Link
                 variant="ghost"
-                href="https://bejamas.io/blog/jamstack-modern-web-development/"
+                href="https://bejamas.io/blog/jamstack/"
               >
                 JAMstack modern web development
               </Link>
@@ -94,6 +94,14 @@ export function Resources() {
                 href="https://medium.com/netlify/jamstack-with-gatsby-netlify-and-netlify-cms-a300735e2c5d"
               >
                 JAMstack with Gatsby, Netlify and Netlify CMS
+              </Link>
+            </Li>
+                <Li>
+              <Link
+                variant="ghost"
+                href="https://bejamas.io/blog/jamstack-ecosystem/"
+              >
+                Jamstack Ecosystem
               </Link>
             </Li>
           </Ul>
