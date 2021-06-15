@@ -33,7 +33,7 @@ export default function() {
           <Text as="p" size="6" as="p">
             JAMstack is revolutionising the way we think about workflow by
             providing a simpler developer experience, better performance, lower
-            cost and greater scalability!
+            cost and greater scalability.
           </Text>
           <Text as="p" size="6" mt={5}>
             This simple guide will help you understand why it exists and how to
