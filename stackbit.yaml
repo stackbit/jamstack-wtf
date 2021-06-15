@@ -1,0 +1,5 @@
+stackbitVersion: ~0.3.0
+ssgName: gatsby
+publishDir: public
+cmsName: git
+nodeVersion: 12
