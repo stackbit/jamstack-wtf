@@ -20,18 +20,18 @@ class Layout extends React.Component {
     return (
       <>
         <Helmet>
-          <title>WTF is JAMstack?</title>
+          <title>WTF is Jamstack?</title>
           <meta
             name="description"
-            content="A simple guide to help you get on the JAMstack"
+            content="A simple guide to help you get on the Jamstack"
           />
           <meta name="twitter:card" content="summary_large_image" />
           <meta name="twitter:site" content="@peduarte" />
           <meta name="twitter:creator" content="@peduarte" />
-          <meta name="twitter:title" content="WTF is JAMstack?" />
+          <meta name="twitter:title" content="WTF is Jamstack?" />
           <meta
             name="twitter:description"
-            content="A simple guide to help you get on the JAMstack"
+            content="A simple guide to help you get on the Jamstack"
           />
           <meta name="twitter:url" content="https://jamstack.wtf" />
           <meta
