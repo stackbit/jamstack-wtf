@@ -2,13 +2,11 @@
 
 # WTF is Jamstack?
 
-### Jamstack is revolutionising the way we think about workflow by providing a simpler developer experience, better performance, lower cost and greater scalability.
+Jamstack is revolutionising the way we think about workflow by providing a simpler developer experience, better performance, lower cost and greater scalability.
 
-### This simple guide will help you understand why it exists and how to get started.
+This simple guide will help you understand why it exists and how to get started.
 
-#### ✨ [Read the guide](https://jamstack.wtf)
-
----
+[✨ Read the guide](https://jamstack.wtf)
 
 ## About
 
