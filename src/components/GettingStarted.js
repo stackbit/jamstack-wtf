@@ -30,7 +30,7 @@ export function GettingStarted() {
 
           <SubSectionTitle>Static Site Generators</SubSectionTitle>
           <SubSectionText>
-            Most JAMstack sites are powered by a static site generator. There's
+            Most Jamstack sites are powered by a static site generator. There's
             no enforcement on which SSG you decide to use.
           </SubSectionText>
 
@@ -132,7 +132,7 @@ export function GettingStarted() {
       <Section>
         <SectionTitle id="dynamic-parts">Dynamic parts</SectionTitle>
         <Text as="p" size="5">
-          JAMstack websites don't have to be static. There are great services
+          Jamstack websites don't have to be static. There are great services
           available to help bring some dynamic data to your product.
         </Text>
 
@@ -174,7 +174,7 @@ export function GettingStarted() {
 
           <SubSectionTitle>Comments</SubSectionTitle>
           <SubSectionText>
-            Many JAMstack products have dynamic comment sections. These are
+            Many Jamstack products have dynamic comment sections. These are
             typically used on blogs
           </SubSectionText>
 
@@ -185,7 +185,7 @@ export function GettingStarted() {
 
           <SubSectionTitle>E-Commerce</SubSectionTitle>
           <SubSectionText>
-            Setting up an online store on the JAMstack has never been easier
+            Setting up an online store on the Jamstack has never been easier
           </SubSectionText>
 
           <SubSectionTitle>Search</SubSectionTitle>
@@ -203,7 +203,7 @@ export function GettingStarted() {
       <Section hideDivider>
         <SectionTitle id="cms">CMS</SectionTitle>
         <Text as="p" size="5">
-          JAMstack sites can also be controlled via a Content Management System,
+          Jamstack sites can also be controlled via a Content Management System,
           these are typically known as Headless CMS. Once a change in the CMS is
           made, a new build of your site will be triggered and then deployed as
           static assets.
