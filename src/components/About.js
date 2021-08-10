@@ -54,7 +54,7 @@ export function About() {
           <Link
             sx={{ color: 'white' }}
             color="black"
-            href="https://www.gatsbyjs.org/"
+            href="https://www.gatsbyjs.com/"
           >
             Gatsby
           </Link>
@@ -62,7 +62,7 @@ export function About() {
           <Link
             sx={{ color: 'white' }}
             color="black"
-            href="https://netlify.com"
+            href="https://www.netlify.com/"
           >
             Netlify
           </Link>
@@ -78,7 +78,7 @@ export function About() {
           <Link
             sx={{ color: 'white' }}
             color="black"
-            href="https://github.com/peduarte/jamstack-wtf"
+            href="https://github.com/stackbit/jamstack-wtf"
           >
             Github
           </Link>

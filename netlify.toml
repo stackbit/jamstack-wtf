@@ -8,5 +8,5 @@ NODE_VERSION = "14"
 [[plugins]]
 package = "netlify-plugin-checklinks"
   [plugins.inputs]
-  skipPatterns = ["*.map"]
+  skipPatterns = ["*.map", "sw.js", "https://www.jamstack.org/slack"]
   checkExternal = true

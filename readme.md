@@ -14,4 +14,4 @@ This project was put together by [@peduarte](https://twitter.com/peduarte) and p
 
 The goal of this guide is to gather the concept of Jamstack in a straight-forward guide to encourage other developers to adopt the workflow.
 
-Built with [Wallop System](https://ped.ro/blog/wallop-system-built-with-modulz), [Gatsby](https://www.gatsbyjs.org/) and hosted on [Netlify](https://netlify.com/).
+Built with [Wallop System](https://ped.ro/blog/wallop-system-built-with-modulz), [Gatsby](https://www.gatsbyjs.com/) and hosted on [Netlify](https://netlify.com/).

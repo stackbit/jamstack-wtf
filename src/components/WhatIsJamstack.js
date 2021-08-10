@@ -124,7 +124,7 @@ export function WhatIsJamstack() {
           <SubSectionTitle>Less expensive</SubSectionTitle>
           <SubSectionText>
             Hosting of static files is cheap or{' '}
-            <Link href="https://netlify.com" color="pink">
+            <Link href="https://www.netlify.com/" color="pink">
               even free.
             </Link>
           </SubSectionText>

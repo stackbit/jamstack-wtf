@@ -44,7 +44,7 @@ export function GettingStarted() {
               <Link
                 variant="ghost"
                 title="Gatsby"
-                href="https://www.gatsbyjs.org/"
+                href="https://www.gatsbyjs.com/"
               >
                 Gatsby
               </Link>
@@ -56,7 +56,9 @@ export function GettingStarted() {
             </Li>
           </Ul>
           <Box mt={[4, 5]}>
-            <ReadMore href="https://www.staticgen.com/">See more SSGs</ReadMore>
+            <ReadMore href="https://jamstack.org/generators/">
+              See more SSGs
+            </ReadMore>
           </Box>
 
           <SubSectionTitle>Site Builders</SubSectionTitle>
@@ -106,7 +108,11 @@ export function GettingStarted() {
 
         <Ul>
           <Li>
-            <Link variant="ghost" title="Netlify" href="https://netlify.com">
+            <Link
+              variant="ghost"
+              title="Netlify"
+              href="https://www.netlify.com/"
+            >
               Netlify
             </Link>
           </Li>
@@ -144,7 +150,7 @@ export function GettingStarted() {
           </Li>
         </Ul>
         <Box mt={[4, 5]}>
-          <ReadMore href="https://www.thenewdynamic.org/tools/hosting-deployment/">
+          <ReadMore href="https://www.tnd.dev/tools/hosting-deployment/">
             See more deployment services
           </ReadMore>
         </Box>
@@ -310,7 +316,7 @@ export function GettingStarted() {
               </Link>
             </Li>
             <Li>
-              <Link title="Lunr.js" href="http://lunrjs.com/">
+              <Link title="Lunr.js" href="https://lunrjs.com/">
                 Lunr.js
               </Link>
             </Li>
@@ -346,7 +352,7 @@ export function GettingStarted() {
             <Link
               variant="ghost"
               title="Contentful"
-              href="http://contentful.com"
+              href="https://www.contentful.com/"
             >
               Contentful
             </Link>
@@ -364,7 +370,7 @@ export function GettingStarted() {
             <Link
               variant="ghost"
               title="Ghost"
-              href="https://docs.ghost.org/api/content/"
+              href="https://ghost.org/docs/content-api/"
             >
               Ghost
             </Link>
@@ -385,16 +391,12 @@ export function GettingStarted() {
             </Link>
           </Li>
           <Li>
-            <Link
-              variant="ghost"
-              title="Kontent"
-              href="https://www.kontent.ai/"
-            >
+            <Link variant="ghost" title="Kontent" href="https://kontent.ai/">
               Kontent
             </Link>
           </Li>
           <Li>
-            <Link variant="ghost" title="GraphCMS" href="http://graphcms.com">
+            <Link variant="ghost" title="GraphCMS" href="http://graphcms.com/">
               GraphCMS
             </Link>
           </Li>
@@ -409,7 +411,7 @@ export function GettingStarted() {
           </Li>
         </Ul>
         <Box mt={[4, 5]}>
-          <ReadMore href="https://headlesscms.org/">
+          <ReadMore href="https://jamstack.org/headless-cms/">
             See more CMS services
           </ReadMore>
         </Box>

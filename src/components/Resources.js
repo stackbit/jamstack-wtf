@@ -29,12 +29,12 @@ export function Resources() {
               </Link>
             </Li>
             <Li>
-              <Link variant="ghost" href="https://headlesscms.org/">
+              <Link variant="ghost" href="https://jamstack.org/headless-cms/">
                 A List of Content Management Systems for Jamstack Sites
               </Link>
             </Li>
             <Li>
-              <Link variant="ghost" href="https://www.staticgen.com/">
+              <Link variant="ghost" href="https://jamstack.org/generators/">
                 A List of Static Site Generators for Jamstack Sites
               </Link>
             </Li>
@@ -44,7 +44,7 @@ export function Resources() {
               </Link>
             </Li>
             <Li>
-              <Link variant="ghost" href="https://www.thenewdynamic.org/tool/">
+              <Link variant="ghost" href="http://www.tnd.dev/tool/ ">
                 A curated collection of tools and services
               </Link>
             </Li>
@@ -62,16 +62,13 @@ export function Resources() {
             <Li>
               <Link
                 variant="ghost"
-                href="https://www.quora.com/What-is-the-concept-behind-Jamstack"
+                href="https://www.quora.com/What-is-the-concept-behind-JAMstack"
               >
                 What is the concept behind Jamstack
               </Link>
             </Li>
             <Li>
-              <Link
-                variant="ghost"
-                href="https://bejamas.io/blog/jamstack-modern-web-development/"
-              >
+              <Link variant="ghost" href="https://bejamas.io/blog/jamstack/">
                 Jamstack modern web development
               </Link>
             </Li>
@@ -84,7 +81,10 @@ export function Resources() {
               </Link>
             </Li>
             <Li>
-              <Link variant="ghost" href="https://blog.ghost.org/jamstack/">
+              <Link
+                variant="ghost"
+                href="https://ghost.org/changelog/jamstack/"
+              >
                 Ghost on the Jamstack
               </Link>
             </Li>
@@ -116,7 +116,7 @@ export function Resources() {
               </Link>
             </Li>
             <Li>
-              <Link variant="ghost" href="https://www.thenewdynamic.org/video/">
+              <Link variant="ghost" href="https://www.tnd.dev/video/">
                 The New Dynamic curated videos
               </Link>
             </Li>
@@ -145,7 +145,7 @@ export function Resources() {
             <Li>
               <Link
                 variant="ghost"
-                href="http://shop.oreilly.com/product/0636920051879.do"
+                href="https://www.oreilly.com/library/view/working-with-static/9781491960936/"
               >
                 Working with Static Sites (O'Reilly, 2017)
               </Link>
