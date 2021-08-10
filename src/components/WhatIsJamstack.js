@@ -16,7 +16,7 @@ import { WorkflowDiagram } from './WorkflowDiagram';
 export function WhatIsJamstack() {
   return (
     <Chapter
-      title="What is JAMstack"
+      title="What is Jamstack"
       id="what-is-jamstack"
       sx={{
         bg: 'black',
@@ -70,7 +70,7 @@ export function WhatIsJamstack() {
       <Section>
         <SectionTitle id="benefits">Benefits</SectionTitle>
         <Text as="p" size="5">
-          Here are the main benefits provided by the JAMstack
+          Here are the main benefits provided by the Jamstack
         </Text>
 
         <SubSection>
@@ -181,7 +181,7 @@ export function WhatIsJamstack() {
       <Section>
         <SectionTitle id="workflow">Workflow</SectionTitle>
         <Text as="p" size="5">
-          Here's how an ideal JAMstack workflow would look like
+          Here's how an ideal Jamstack workflow would look like
         </Text>
 
         <WorkflowDiagram />
