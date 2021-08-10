@@ -21,20 +21,20 @@ export function TimelineDiagram() {
       <Stem />
       <TimelineItem bg="orange" title="2016">
         A small group of developers believe that Static sites don't have to be
-        static and the term "JAMstack" comes to life.
+        static and the term "Jamstack" comes to life.
       </TimelineItem>
       <Stem />
       <TimelineItem bg="pink" title="2017">
         The modern web revolution starts prioritising the importance of
-        performance, scalability and developer experience. The term JAMstack
+        performance, scalability and developer experience. The term Jamstack
         starts to be adopted by a wider group of developers and the first
-        enterprise JAMstack projects are announced.
+        enterprise Jamstack projects are announced.
       </TimelineItem>
       <Stem />
       <TimelineItem bg="blue" title="2018">
         Tools like Netlify, Gatsby and Contentful have helped promote the term
         and the community is rapidly growing. This was also the year of the
-        first JAMstack Conference.
+        first Jamstack Conference.
       </TimelineItem>
     </Flex>
   );
