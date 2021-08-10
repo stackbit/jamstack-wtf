@@ -23,7 +23,7 @@ export default function() {
       </Box>
       <Box px={[4, 5, 6]} py={[4, 5]} sx={{ bg: 'black', color: 'white' }}>
         <Text as="h1" size="4">
-          JAMstack{' '}
+          Jamstack{' '}
           <Text as="span" ml="1" sx={{ color: 'gray' }}>
             WTF
           </Text>
@@ -31,7 +31,7 @@ export default function() {
 
         <Container my={[5, 6]} mx="0">
           <Text as="p" size="6" as="p">
-            JAMstack is revolutionising the way we think about workflow by
+            Jamstack is revolutionising the way we think about workflow by
             providing a simpler developer experience, better performance, lower
             cost and greater scalability.
           </Text>
