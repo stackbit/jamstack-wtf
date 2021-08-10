@@ -13,7 +13,7 @@ export function About() {
         color: 'white',
       }}
     >
-      <Text as="h3" size="4">
+      <Text as="h3" size="4" id="about">
         About
       </Text>
       <Section hideDivider>

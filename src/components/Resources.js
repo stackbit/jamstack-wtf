@@ -44,7 +44,7 @@ export function Resources() {
               </Link>
             </Li>
             <Li>
-              <Link variant="ghost" href="http://www.tnd.dev/tool/ ">
+              <Link variant="ghost" href="http://www.tnd.dev/tool/">
                 A curated collection of tools and services
               </Link>
             </Li>
