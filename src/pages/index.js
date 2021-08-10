@@ -14,7 +14,7 @@ export default function() {
         <Text as="h1" size="4">
           Black Lives Matter.{' '}
           <Link
-            href="https://support.eji.org/give/153413/#!/donation/checkout"
+            href="https://support.eji.org/give/153413"
             title="Support the Equal Justice Initiative"
           >
             Support the Equal Justice Initiative.
