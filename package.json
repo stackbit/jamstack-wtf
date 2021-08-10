@@ -1,7 +1,7 @@
 {
   "name": "jamstack-wtf",
   "private": true,
-  "description": "A simple guide to help you get on the JAMstack",
+  "description": "A simple guide to help you get on the Jamstack",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
