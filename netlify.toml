@@ -9,9 +9,10 @@ NODE_VERSION = "14"
 package = "netlify-plugin-checklinks"
   [plugins.inputs]
   skipPatterns = [
-    "*.js.map",
+    ".js.map",
     "sw.js",
     "https://www.jamstack.org/slack",
-    "https://www.cloudflare.com/learning/cdn/what-is-a-cdn/"
+    "https://www.cloudflare.com/learning/cdn/what-is-a-cdn/",
+    "https://support.eji.org/give/153413"
   ]
   checkExternal = true
