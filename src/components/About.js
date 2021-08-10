@@ -30,9 +30,9 @@ export function About() {
           <Link
             sx={{ color: 'white' }}
             color="black"
-            href="https://www.meetup.com/JAMstack-London/events/257961818/"
+            href="https://www.meetup.com/Jamstack-London/events/257961818/"
           >
-            JAMstack meetup
+            Jamstack meetup
           </Link>{' '}
           in London. The decks are available{' '}
           <Link
@@ -45,7 +45,7 @@ export function About() {
           .
         </Text>
         <Text as="p" mt="5" size="5">
-          The goal of this project is to gather the concept of JAMstack in a
+          The goal of this project is to gather the concept of Jamstack in a
           straight-forward way to encourage other developers to adopt the
           workflow.
         </Text>
@@ -86,7 +86,7 @@ export function About() {
         </Text>
 
         <Text as="p" mt="5" size="5">
-          JAMstack.
+          Jamstack.
         </Text>
       </Section>
     </Box>
