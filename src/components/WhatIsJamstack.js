@@ -24,9 +24,10 @@ export function WhatIsJamstack() {
       }}
     >
       <Section>
-        <SectionTitle id="meaning">Meaning</SectionTitle>
+        <SectionTitle id="history">History</SectionTitle>
         <Text as="p" size="5">
-          JAM stands for JavaScript, API &amp; Markup.
+          "Jamstack" was originally cased as "JAMstack" where "JAM" stood for
+          JavaScript, API &amp; Markup.
         </Text>
 
         <Text
@@ -68,27 +69,63 @@ export function WhatIsJamstack() {
       </Section>
 
       <Section>
+        <SectionTitle id="meaning">Meaning</SectionTitle>
+        <Text as="p" size="5">
+          Today, Jamstack is used to more broadly refer to an architectural
+          approach for building websites. Though there are varying opinions on
+          what exactly Jamstack means today, these attributes are present in
+          most sites that claim to be Jamstack sites:
+        </Text>
+
+        <SubSection>
+          <SubSectionTitle>Decoupled</SubSectionTitle>
+          <SubSectionText>
+            The front end uses tooling separate from the back end. The front end
+            is typically built using a static site generator. And the back end
+            is often integrated with the front through the use of APIs used
+            during the build process. Server-side processes can also be run
+            using serverless functions.
+          </SubSectionText>
+        </SubSection>
+        <SubSection>
+          <SubSectionTitle>Static-first</SubSectionTitle>
+          <SubSectionText>
+            While various practices exist for introducing dynamic elements to
+            Jamstack sites, most are pre-rendered, which means the front end was
+            built and compiled into HTML, CSS, and JavaScript files.
+          </SubSectionText>
+        </SubSection>
+        <SubSection>
+          <SubSectionTitle>Progressively enhanced</SubSectionTitle>
+          <SubSectionText>
+            JavaScript can be introduced to pre-rendered sites on an as-needed
+            basis, thus increasing performance in the browser.
+          </SubSectionText>
+        </SubSection>
+      </Section>
+
+      <Section>
         <SectionTitle id="benefits">Benefits</SectionTitle>
         <Text as="p" size="5">
-          Here are the main benefits provided by the Jamstack
+          Here are the main benefits provided by the Jamstack.
         </Text>
 
         <SubSection>
           <SubSectionTitle>Faster performance</SubSectionTitle>
           <SubSectionText>
-            Serve pre-built markup and assets over a CDN
+            Serve pre-built markup and assets over a CDN.
           </SubSectionText>
 
           <SubSectionTitle>More secure</SubSectionTitle>
           <SubSectionText>
-            No need to worry about server or database vulnerabilities
+            No need to worry about server or database vulnerabilities.
           </SubSectionText>
 
           <SubSectionTitle>Less expensive</SubSectionTitle>
           <SubSectionText>
-            Hosting of static files are cheap or{' '}
+            Hosting of static files is cheap or{' '}
             <Link href="https://netlify.com" color="pink">
-              even free
+              even free.
             </Link>
           </SubSectionText>
 
@@ -96,13 +133,13 @@ export function WhatIsJamstack() {
           <SubSectionText>
             Front end developers can focus on the front end, without being tied
             to a monolithic architecture. This usually means quicker and more
-            focused development
+            focused development.
           </SubSectionText>
 
           <SubSectionTitle>Scalability</SubSectionTitle>
           <SubSectionText>
             If your product suddenly goes viral and has many active users, the
-            CDN seamlessly compensates
+            CDN seamlessly compensates.
           </SubSectionText>
         </SubSection>
       </Section>
@@ -152,8 +189,8 @@ export function WhatIsJamstack() {
 
           <SubSectionTitle>Everything in version control</SubSectionTitle>
           <SubSectionText>
-            Your codebase lives in Version Control System, such as Git. The main
-            benefits are: change history of every file, collaborators and
+            Your codebase lives in version control system, such as Git. The main
+            benefits are changing the history of every file, collaborators and
             traceability.
           </SubSectionText>
           <ReadMore
@@ -181,7 +218,7 @@ export function WhatIsJamstack() {
       <Section>
         <SectionTitle id="workflow">Workflow</SectionTitle>
         <Text as="p" size="5">
-          Here's how an ideal Jamstack workflow would look like
+          Here's an ideal Jamstack workflow:
         </Text>
 
         <WorkflowDiagram />
@@ -190,7 +227,7 @@ export function WhatIsJamstack() {
       <Section hideDivider>
         <SectionTitle id="timeline">Timeline</SectionTitle>
         <Text as="p" size="5">
-          A brief history of stack shows its growth in popularity
+          A brief history of Jamstack shows its growth in popularity.
         </Text>
 
         <TimelineDiagram />

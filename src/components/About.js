@@ -18,7 +18,7 @@ export function About() {
       </Text>
       <Section hideDivider>
         <Text as="p" size="5">
-          This project was put together by{' '}
+          This project was originally built by{' '}
           <Link
             sx={{ color: 'white' }}
             color="black"
@@ -34,13 +34,13 @@ export function About() {
           >
             Jamstack meetup
           </Link>{' '}
-          in London. The decks are available{' '}
+          in London. It is maintained by{' '}
           <Link
             sx={{ color: 'white' }}
             color="black"
-            href="https://speakerdeck.com/peduarte/jamstack-cheatsheet"
+            href="https://www.stackbit.com/"
           >
-            here
+            Stackbit
           </Link>
           .
         </Text>
@@ -50,15 +50,7 @@ export function About() {
           workflow.
         </Text>
         <Text as="p" mt="5" size="5">
-          Built with{' '}
-          <Link
-            sx={{ color: 'white' }}
-            color="black"
-            href="https://ped.ro/blog/wallop-system-built-with-modulz"
-          >
-            Wallop System
-          </Link>
-          ,{' '}
+          Built with the help of{' '}
           <Link
             sx={{ color: 'white' }}
             color="black"
@@ -66,15 +58,23 @@ export function About() {
           >
             Gatsby
           </Link>
-          , hosted on{' '}
+          ,{' '}
           <Link
             sx={{ color: 'white' }}
             color="black"
             href="https://netlify.com"
           >
             Netlify
-          </Link>{' '}
-          and open sourced on{' '}
+          </Link>
+          ,{' '}
+          <Link
+            sx={{ color: 'white' }}
+            color="black"
+            href="https://www.stackbit.com/"
+          >
+            Stackbit
+          </Link>
+          , and{' '}
           <Link
             sx={{ color: 'white' }}
             color="black"
