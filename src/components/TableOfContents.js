@@ -23,6 +23,13 @@ export function TableOfContents() {
             <Box as="ol" ml={[4, 5]} sx={{ listStyle: 'none' }}>
               <li>
                 <Text size="5">
+                  <Link variant="ghost" href="#history">
+                    History
+                  </Link>
+                </Text>
+              </li>
+              <li>
+                <Text size="5">
                   <Link variant="ghost" href="#meaning">
                     Meaning
                   </Link>
