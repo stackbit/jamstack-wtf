@@ -13,12 +13,12 @@ export function About() {
         color: 'white',
       }}
     >
-      <Text as="h3" size="4">
+      <Text as="h3" size="4" id="about">
         About
       </Text>
       <Section hideDivider>
         <Text as="p" size="5">
-          This project was put together by{' '}
+          This project was originally built by{' '}
           <Link
             sx={{ color: 'white' }}
             color="black"
@@ -30,55 +30,55 @@ export function About() {
           <Link
             sx={{ color: 'white' }}
             color="black"
-            href="https://www.meetup.com/JAMstack-London/events/257961818/"
+            href="https://www.meetup.com/Jamstack-London/events/257961818/"
           >
-            JAMstack meetup
+            Jamstack meetup
           </Link>{' '}
-          in London. The decks are available{' '}
+          in London. It is maintained by{' '}
           <Link
             sx={{ color: 'white' }}
             color="black"
-            href="https://speakerdeck.com/peduarte/jamstack-cheatsheet"
+            href="https://www.stackbit.com/"
           >
-            here
+            Stackbit
           </Link>
           .
         </Text>
         <Text as="p" mt="5" size="5">
-          The goal of this project is to gather the concept of JAMstack in a
+          The goal of this project is to gather the concept of Jamstack in a
           straight-forward way to encourage other developers to adopt the
           workflow.
         </Text>
         <Text as="p" mt="5" size="5">
-          Built with{' '}
+          Built with the help of{' '}
           <Link
             sx={{ color: 'white' }}
             color="black"
-            href="https://ped.ro/blog/wallop-system-built-with-modulz"
+            href="https://www.gatsbyjs.com/"
           >
-            Wallop System
+            Gatsby
           </Link>
           ,{' '}
           <Link
             sx={{ color: 'white' }}
             color="black"
-            href="https://www.gatsbyjs.org/"
-          >
-            Gatsby
-          </Link>
-          , hosted on{' '}
-          <Link
-            sx={{ color: 'white' }}
-            color="black"
-            href="https://netlify.com"
+            href="https://www.netlify.com/"
           >
             Netlify
-          </Link>{' '}
-          and open sourced on{' '}
+          </Link>
+          ,{' '}
           <Link
             sx={{ color: 'white' }}
             color="black"
-            href="https://github.com/peduarte/jamstack-wtf"
+            href="https://www.stackbit.com/"
+          >
+            Stackbit
+          </Link>
+          , and{' '}
+          <Link
+            sx={{ color: 'white' }}
+            color="black"
+            href="https://github.com/stackbit/jamstack-wtf"
           >
             Github
           </Link>
@@ -86,7 +86,7 @@ export function About() {
         </Text>
 
         <Text as="p" mt="5" size="5">
-          JAMstack.
+          Jamstack.
         </Text>
       </Section>
     </Box>

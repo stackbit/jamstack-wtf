@@ -13,7 +13,7 @@ export function Resources() {
     >
       <Section hideDivider>
         <Text as="p" size="5">
-          Here's a list of hand-picked JAMstack resources ranging from learning
+          Here's a list of hand-picked Jamstack resources ranging from learning
           materials to third party services.
         </Text>
 
@@ -29,22 +29,22 @@ export function Resources() {
               </Link>
             </Li>
             <Li>
-              <Link variant="ghost" href="https://headlesscms.org/">
-                A List of Content Management Systems for JAMstack Sites
+              <Link variant="ghost" href="https://jamstack.org/headless-cms/">
+                A List of Content Management Systems for Jamstack Sites
               </Link>
             </Li>
             <Li>
-              <Link variant="ghost" href="https://www.staticgen.com/">
-                A List of Static Site Generators for JAMstack Sites
+              <Link variant="ghost" href="https://jamstack.org/generators/">
+                A List of Static Site Generators for Jamstack Sites
               </Link>
             </Li>
             <Li>
               <Link variant="ghost" href="https://jamstackthemes.dev/">
-                A List of Themes and Starters for JAMstack Sites
+                A List of Themes and Starters for Jamstack Sites
               </Link>
             </Li>
             <Li>
-              <Link variant="ghost" href="https://www.thenewdynamic.org/tool/">
+              <Link variant="ghost" href="https://www.tnd.dev/tool/">
                 A curated collection of tools and services
               </Link>
             </Li>
@@ -56,7 +56,7 @@ export function Resources() {
           <Ul>
             <Li>
               <Link variant="ghost" href="https://snipcart.com/blog/jamstack">
-                New to JAMstack? Everything You Need to Know to Get Started
+                New to Jamstack? Everything You Need to Know to Get Started
               </Link>
             </Li>
             <Li>
@@ -64,15 +64,12 @@ export function Resources() {
                 variant="ghost"
                 href="https://www.quora.com/What-is-the-concept-behind-JAMstack"
               >
-                What is the concept behind JAMstack
+                What is the concept behind Jamstack
               </Link>
             </Li>
             <Li>
-              <Link
-                variant="ghost"
-                href="https://bejamas.io/blog/jamstack-modern-web-development/"
-              >
-                JAMstack modern web development
+              <Link variant="ghost" href="https://bejamas.io/blog/jamstack/">
+                Jamstack modern web development
               </Link>
             </Li>
             <Li>
@@ -84,8 +81,11 @@ export function Resources() {
               </Link>
             </Li>
             <Li>
-              <Link variant="ghost" href="https://blog.ghost.org/jamstack/">
-                Ghost on the JAMstack
+              <Link
+                variant="ghost"
+                href="https://ghost.org/changelog/jamstack/"
+              >
+                Ghost on the Jamstack
               </Link>
             </Li>
             <Li>
@@ -93,7 +93,7 @@ export function Resources() {
                 variant="ghost"
                 href="https://medium.com/netlify/jamstack-with-gatsby-netlify-and-netlify-cms-a300735e2c5d"
               >
-                JAMstack with Gatsby, Netlify and Netlify CMS
+                Jamstack with Gatsby, Netlify and Netlify CMS
               </Link>
             </Li>
           </Ul>
@@ -107,7 +107,7 @@ export function Resources() {
                 variant="ghost"
                 href="https://www.youtube.com/watch?v=uWTMEDEPw8c"
               >
-                The Rise of the JAMstack talk by Mathias Biilmann
+                The Rise of the Jamstack talk by Mathias Biilmann
               </Link>
             </Li>
             <Li>
@@ -116,7 +116,7 @@ export function Resources() {
               </Link>
             </Li>
             <Li>
-              <Link variant="ghost" href="https://www.thenewdynamic.org/video/">
+              <Link variant="ghost" href="https://www.tnd.dev/video/">
                 The New Dynamic curated videos
               </Link>
             </Li>
@@ -125,7 +125,7 @@ export function Resources() {
                 variant="ghost"
                 href="https://www.youtube.com/watch?v=e5H7CI3yqPY"
               >
-                How freeCodeCamp Serves Millions of Learners Using the JAMstack
+                How freeCodeCamp Serves Millions of Learners Using the Jamstack
               </Link>
             </Li>
           </Ul>
@@ -139,13 +139,13 @@ export function Resources() {
                 variant="ghost"
                 href="https://www.netlify.com/oreilly-jamstack/"
               >
-                Modern Web Development on the JAMstack (O'Reilly, 2019)
+                Modern Web Development on the Jamstack (O'Reilly, 2019)
               </Link>
             </Li>
             <Li>
               <Link
                 variant="ghost"
-                href="http://shop.oreilly.com/product/0636920051879.do"
+                href="https://www.oreilly.com/library/view/working-with-static/9781491960936/"
               >
                 Working with Static Sites (O'Reilly, 2017)
               </Link>
@@ -161,7 +161,7 @@ export function Resources() {
                 variant="ghost"
                 href="https://www.heavybit.com/library/podcasts/jamstack-radio/"
               >
-                JAMstack Radio
+                Jamstack Radio
               </Link>
             </Li>
           </Ul>
@@ -186,7 +186,7 @@ export function Resources() {
           <Ul>
             <Li>
               <Link variant="ghost" href="https://www.jamstack.org/slack">
-                JAMstack community Slack
+                Jamstack community Slack
               </Link>
             </Li>
           </Ul>

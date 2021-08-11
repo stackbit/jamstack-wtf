@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'JAMstack WTF',
+    title: 'Jamstack WTF',
     author: 'Pedro Duarte',
-    description: 'A simple guide to help you get on the JAMstack',
+    description: 'A simple guide to help you get on the Jamstack',
     siteUrl: 'https://jamstack.wtf',
     social: {
       twitter: '@peduarte',

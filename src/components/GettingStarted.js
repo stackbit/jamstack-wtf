@@ -30,23 +30,23 @@ export function GettingStarted() {
 
           <SubSectionTitle>Static Site Generators</SubSectionTitle>
           <SubSectionText>
-            Most JAMstack sites are powered by a static site generator. There's
+            Most Jamstack sites are powered by a static site generator. There's
             no enforcement on which SSG you decide to use.
           </SubSectionText>
 
           <Ul>
             <Li>
-              <Link
-                variant="ghost"
-                title="Gatsby"
-                href="https://www.gatsbyjs.org/"
-              >
-                Gatsby
+              <Link variant="ghost" title="Next.js" href="https://nextjs.org/">
+                Next.js
               </Link>
             </Li>
             <Li>
-              <Link variant="ghost" title="Next.js" href="https://nextjs.org/">
-                Next.js
+              <Link
+                variant="ghost"
+                title="Gatsby"
+                href="https://www.gatsbyjs.com/"
+              >
+                Gatsby
               </Link>
             </Li>
             <Li>
@@ -56,29 +56,43 @@ export function GettingStarted() {
             </Li>
           </Ul>
           <Box mt={[4, 5]}>
-            <ReadMore href="https://www.staticgen.com/">See more SSGs</ReadMore>
+            <ReadMore href="https://jamstack.org/generators/">
+              See more SSGs
+            </ReadMore>
           </Box>
 
-          <SubSectionTitle>Frontend Framework</SubSectionTitle>
+          <SubSectionTitle>Site Builders</SubSectionTitle>
           <SubSectionText>
-            Most frameworks don't output static HTML files, however it is
-            possible to do that but it requires more tooling experience and
-            maintenance.
+            Tools that bring Jamstack to less technical users, while enabling
+            developers to customize sites through modern tooling.
           </SubSectionText>
+
           <Ul>
             <Li>
-              <Link variant="ghost" title="React" href="http://reactjs.org">
-                React
+              <Link
+                variant="ghost"
+                title="Stackbit"
+                href="https://www.stackbit.com/"
+              >
+                Stackbit
               </Link>
             </Li>
             <Li>
-              <Link variant="ghost" title="Vue.js" href="https://vuejs.org/">
-                Vue.js
+              <Link
+                variant="ghost"
+                title="Builder.io"
+                href="https://www.builder.io/"
+              >
+                Builder.io
               </Link>
             </Li>
             <Li>
-              <Link variant="ghost" title="Preact" href="https://preactjs.com/">
-                Preact
+              <Link
+                variant="ghost"
+                title="CloudCannon"
+                href="https://cloudcannon.com/"
+              >
+                CloudCannon
               </Link>
             </Li>
           </Ul>
@@ -89,12 +103,16 @@ export function GettingStarted() {
         <SectionTitle id="deployment">Deployment</SectionTitle>
         <Text as="p" size="5">
           Your built site needs to be hosted somewhere. There are great services
-          that provides this for free and with ease.
+          that provide this for free and with ease.
         </Text>
 
         <Ul>
           <Li>
-            <Link variant="ghost" title="Netlify" href="https://netlify.com">
+            <Link
+              variant="ghost"
+              title="Netlify"
+              href="https://www.netlify.com/"
+            >
               Netlify
             </Link>
           </Li>
@@ -115,15 +133,24 @@ export function GettingStarted() {
           <Li>
             <Link
               variant="ghost"
-              title="Stackbit"
-              href="https://www.stackbit.com/"
+              title="Digital Ocean"
+              href="https://www.digitalocean.com/"
             >
-              Stackbit
+              Digital Ocean
+            </Link>
+          </Li>
+          <Li>
+            <Link
+              variant="ghost"
+              title="Azure Static Web Apps"
+              href="https://azure.microsoft.com/en-us/services/app-service/static/"
+            >
+              Azure Static Web Apps
             </Link>
           </Li>
         </Ul>
         <Box mt={[4, 5]}>
-          <ReadMore href="https://www.thenewdynamic.org/tools/hosting-deployment/">
+          <ReadMore href="https://www.tnd.dev/tools/hosting-deployment/">
             See more deployment services
           </ReadMore>
         </Box>
@@ -132,69 +159,171 @@ export function GettingStarted() {
       <Section>
         <SectionTitle id="dynamic-parts">Dynamic parts</SectionTitle>
         <Text as="p" size="5">
-          JAMstack websites don't have to be static. There are great services
+          Jamstack websites don't have to be static. There are great services
           available to help bring some dynamic data to your product.
         </Text>
 
         <SubSection>
           <SubSectionTitle>Custom functions</SubSectionTitle>
           <SubSectionText>
-            You can also abstract your own functions into reusable APIs. For
-            this you can use{' '}
-            <Link
-              color="pink"
-              title="AWS lambda functions"
-              href="https://aws.amazon.com/lambda/features/"
-            >
-              AWS lambda functions
-            </Link>{' '}
-            or{' '}
-            <Link
-              color="pink"
-              title="Netlify Functions"
-              href="https://functions.netlify.com/examples/"
-            >
-              Netlify Functions
-            </Link>
+            You can also abstract your own functions into reusable APIs.
           </SubSectionText>
+
+          <Ul>
+            <Li>
+              <Link
+                title="AWS lambda functions"
+                href="https://aws.amazon.com/lambda/features/"
+              >
+                AWS lambda functions
+              </Link>
+            </Li>
+            <Li>
+              <Link
+                title="Netlify Functions"
+                href="https://functions.netlify.com/examples/"
+              >
+                Netlify Functions
+              </Link>
+            </Li>
+          </Ul>
 
           <SubSectionTitle>Custom data</SubSectionTitle>
           <SubSectionText>
             As you add features to your site, you may want to store user
             profiles, shopping cart data, game levels, or other dynamic data.
-            Get started for free with{' '}
-            <Link
-              color="pink"
-              title="FaunaDB Serverless GraphQL"
-              href="https://fauna.com/"
-            >
-              FaunaDB Serverless GraphQL
-            </Link>
+            There are many DBaaS (database as a service) tools out there today.
           </SubSectionText>
+
+          <Ul>
+            <Li>
+              <Link title="Fauna" href="https://fauna.com/">
+                Fauna
+              </Link>
+            </Li>
+            <Li>
+              <Link title="Hasura" href="https://hasura.io/">
+                Hasura
+              </Link>
+            </Li>
+            <Li>
+              <Link
+                title="MongoDB Atlas"
+                href="https://www.mongodb.com/cloud/atlas"
+              >
+                MongoDB Atlas
+              </Link>
+            </Li>
+            <Li>
+              <Link
+                title="AWS DynamoDB"
+                href="https://aws.amazon.com/dynamodb/"
+              >
+                AWS DynamoDB
+              </Link>
+            </Li>
+          </Ul>
 
           <SubSectionTitle>Comments</SubSectionTitle>
           <SubSectionText>
-            Many JAMstack products have dynamic comment sections. These are
-            typically used on blogs
+            Many Jamstack products have dynamic comment sections. These are
+            typically used on blogs.
           </SubSectionText>
+
+          <Ul>
+            <Li>
+              <Link
+                title="Staticman"
+                href="https://github.com/eduardoboucas/staticman"
+              >
+                Staticman
+              </Link>
+            </Li>
+            <Li>
+              <Link title="Disqus" href="https://disqus.com/">
+                Disqus
+              </Link>
+            </Li>
+          </Ul>
 
           <SubSectionTitle>Forms</SubSectionTitle>
           <SubSectionText>
-            A great way to interact with your audience
+            A great way to interact with your audience. Tools like Netlify
+            support this by default, though there are other form-based services.
           </SubSectionText>
+
+          <Ul>
+            <Li>
+              <Link
+                title="Netlify Forms"
+                href="https://www.netlify.com/products/forms/"
+              >
+                Netlify Forms
+              </Link>
+            </Li>
+            <Li>
+              <Link title="Getform" href="https://getform.io/">
+                Getform
+              </Link>
+            </Li>
+            <Li>
+              <Link title="FormKeep" href="https://formkeep.com/">
+                FormKeep
+              </Link>
+            </Li>
+          </Ul>
 
           <SubSectionTitle>E-Commerce</SubSectionTitle>
           <SubSectionText>
-            Setting up an online store on the JAMstack has never been easier
+            Setting up an online store on the Jamstack has never been easier.
           </SubSectionText>
+
+          <Ul>
+            <Li>
+              <Link
+                title="Shopify"
+                href="https://www.shopify.com/plus/solutions/headless-commerce"
+              >
+                Shopify
+              </Link>
+            </Li>
+            <Li>
+              <Link title="Snipcart" href="https://snipcart.com/">
+                Snipcart
+              </Link>
+            </Li>
+            <Li>
+              <Link title="Commerce Layer" href="https://commercelayer.io/">
+                Commerce Layer
+              </Link>
+            </Li>
+          </Ul>
 
           <SubSectionTitle>Search</SubSectionTitle>
           <SubSectionText>
-            Rely on third party services to integrate a search functionality
+            Rely on third party services to integrate a search functionality.
           </SubSectionText>
+
+          <Ul>
+            <Li>
+              <Link title="Algolia" href="https://www.algolia.com/">
+                Algolia
+              </Link>
+            </Li>
+            <Li>
+              <Link title="fuse.js" href="https://fusejs.io/">
+                fuse.js
+              </Link>
+            </Li>
+            <Li>
+              <Link title="Lunr.js" href="https://lunrjs.com/">
+                Lunr.js
+              </Link>
+            </Li>
+          </Ul>
         </SubSection>
         <Box mt={[4, 5]}>
-          <ReadMore href="https://github.com/agarrharr/awesome-static-website-services#e-commerce">
+          <ReadMore href="https://github.com/agarrharr/awesome-static-website-services">
             See more static services
           </ReadMore>
         </Box>
@@ -203,7 +332,7 @@ export function GettingStarted() {
       <Section hideDivider>
         <SectionTitle id="cms">CMS</SectionTitle>
         <Text as="p" size="5">
-          JAMstack sites can also be controlled via a Content Management System,
+          Jamstack sites can also be controlled via a Content Management System,
           these are typically known as Headless CMS. Once a change in the CMS is
           made, a new build of your site will be triggered and then deployed as
           static assets.
@@ -223,7 +352,7 @@ export function GettingStarted() {
             <Link
               variant="ghost"
               title="Contentful"
-              href="http://contentful.com"
+              href="https://www.contentful.com/"
             >
               Contentful
             </Link>
@@ -241,7 +370,7 @@ export function GettingStarted() {
             <Link
               variant="ghost"
               title="Ghost"
-              href="https://docs.ghost.org/api/content/"
+              href="https://ghost.org/docs/content-api/"
             >
               Ghost
             </Link>
@@ -262,16 +391,12 @@ export function GettingStarted() {
             </Link>
           </Li>
           <Li>
-            <Link
-              variant="ghost"
-              title="Kontent"
-              href="https://www.kontent.ai/"
-            >
+            <Link variant="ghost" title="Kontent" href="https://kontent.ai/">
               Kontent
             </Link>
           </Li>
           <Li>
-            <Link variant="ghost" title="GraphCMS" href="http://graphcms.com">
+            <Link variant="ghost" title="GraphCMS" href="https://graphcms.com/">
               GraphCMS
             </Link>
           </Li>
@@ -286,7 +411,7 @@ export function GettingStarted() {
           </Li>
         </Ul>
         <Box mt={[4, 5]}>
-          <ReadMore href="https://headlesscms.org/">
+          <ReadMore href="https://jamstack.org/headless-cms/">
             See more CMS services
           </ReadMore>
         </Box>

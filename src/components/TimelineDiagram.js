@@ -1,5 +1,5 @@
 import React from 'react';
-import { Flex, Box, Text } from '@peduarte/wallop-system';
+import { Flex, Box, Text, Link } from '@peduarte/wallop-system';
 
 export function TimelineDiagram() {
   return (
@@ -21,20 +21,40 @@ export function TimelineDiagram() {
       <Stem />
       <TimelineItem bg="orange" title="2016">
         A small group of developers believe that Static sites don't have to be
-        static and the term "JAMstack" comes to life.
+        static and the term "Jamstack" comes to life.
       </TimelineItem>
       <Stem />
       <TimelineItem bg="pink" title="2017">
         The modern web revolution starts prioritising the importance of
-        performance, scalability and developer experience. The term JAMstack
+        performance, scalability and developer experience. The term Jamstack
         starts to be adopted by a wider group of developers and the first
-        enterprise JAMstack projects are announced.
+        enterprise Jamstack projects are announced.
       </TimelineItem>
       <Stem />
       <TimelineItem bg="blue" title="2018">
         Tools like Netlify, Gatsby and Contentful have helped promote the term
         and the community is rapidly growing. This was also the year of the
-        first JAMstack Conference.
+        first Jamstack Conference.
+      </TimelineItem>
+      <Stem />
+      <TimelineItem bg="green" title="2019">
+        The year that Jamstack went mainstream. An explosion of new tools and
+        services enter the market to support Jamstack sites.
+      </TimelineItem>
+      <Stem />
+      <TimelineItem bg="yellow" title="2020">
+        "JAMstack" becomes "Jamstack" and brought with it a new brand for the
+        community. ZEIT becomes Vercel and begins blurring the lines of what
+        Jamstack really means as Next.js grows in popularity, largely due to its
+        ability to combine server-side and static rendering in the same site.
+      </TimelineItem>
+      <Stem />
+      <TimelineItem bg="white" title="2021">
+        While Jamstack continues to expand, confusion about what it really means
+        has become a common theme. And yet, tools like{' '}
+        <Link href="https://redwoodjs.com/">RedwoodJS</Link> and{' '}
+        <Link href="https://blitzjs.com/">Blitz.js</Link> show us that Jamstack
+        isn’t slowing down.
       </TimelineItem>
     </Flex>
   );
