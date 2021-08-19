@@ -2,9 +2,10 @@ const siteUrl = 'https://jamstack.wtf';
 
 module.exports = {
   siteMetadata: {
-    title: 'Jamstack WTF',
+    title: 'WTF is Jamstack?',
     author: 'Stackbit',
-    description: 'A simple guide to help you get started with the Jamstack',
+    description:
+      'Jamstack has revolutionized the way we build for the web by providing a simpler developer experience, better performance, lower cost, and greater scalability.',
     siteUrl,
     social: {
       twitter: '@stackbit',
