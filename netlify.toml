@@ -17,4 +17,4 @@ package = "netlify-plugin-checklinks"
     "https://vimeo.com/163522126",
     "https://jamstack.new"
   ]
-  checkExternal = true
+  checkExternal = false
