@@ -67,7 +67,7 @@ export default function() {
       <About />
       <Box px={[4, 5, 6]} py={[3, 4]} sx={{ textAlign: 'center' }}>
         <Text as="h3" size="4">
-          Join us in supporting the{' '}
+          &#9994; Join us in supporting the{' '}
           <Link
             href="https://support.eji.org/give/153413"
             title="Support the Equal Justice Initiative"
