@@ -12,7 +12,7 @@ export default function() {
     <Layout>
       <Box px={[4, 5, 6]} py={[4, 5]} sx={{ bg: 'black', color: 'white' }}>
         <Flex
-          my={[5, 6]}
+          my={[5, 3]}
           sx={{
             flexWrap: 'wrap',
             justifyContent: 'space-between',
