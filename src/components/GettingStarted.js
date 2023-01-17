@@ -222,6 +222,11 @@ export function GettingStarted() {
                 AWS DynamoDB
               </Link>
             </Li>
+            <Li>
+              <Link title="Tigris" href="https://www.tigrisdata.com">
+                Tigris
+              </Link>
+            </Li>
           </Ul>
 
           <SubSectionTitle>Comments</SubSectionTitle>
