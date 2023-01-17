@@ -4,6 +4,10 @@
   "description": "A simple guide to help you get on the Jamstack",
   "version": "0.1.0",
   "license": "MIT",
+  "engineStrict": true,
+  "engines": {
+    "node": "<=16.13.0"
+  },
   "scripts": {
     "develop": "gatsby develop",
     "start": "npm run develop",
