@@ -75,11 +75,11 @@ function TimelineItem({ title, bg, children }) {
   );
 }
 
-const Item = props => (
+const Item = (props) => (
   <Box py="4" {...props} sx={{ flex: 1, color: 'black', ...props.sx }} />
 );
 
-const Stem = props => (
+const Stem = (props) => (
   <Box
     mx="auto"
     pt={['4', '5']}

@@ -420,6 +420,6 @@ export function GettingStarted() {
   );
 }
 
-const ListItem = props => (
+const ListItem = (props) => (
   <Text as="li" {...props} sx={{ borderBottom: '1px solid', ...props.sx }} />
 );

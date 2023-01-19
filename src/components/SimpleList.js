@@ -1,7 +1,7 @@
 import React from 'react';
 import { Box, Text } from '@peduarte/wallop-system';
 
-export const Ul = props => (
+export const Ul = (props) => (
   <Box
     as="ul"
     mt={('3', '4')}
@@ -13,7 +13,7 @@ export const Ul = props => (
   />
 );
 
-export const Li = props => (
+export const Li = (props) => (
   <li>
     <Text
       as="p"

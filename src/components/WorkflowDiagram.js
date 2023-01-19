@@ -30,7 +30,7 @@ export function WorkflowDiagram() {
   );
 }
 
-const Item = props => (
+const Item = (props) => (
   <Box
     {...props}
     py="4"
@@ -47,7 +47,7 @@ const Item = props => (
   </Box>
 );
 
-const Circle = props => (
+const Circle = (props) => (
   <Box
     {...props}
     sx={{
@@ -65,7 +65,7 @@ const Circle = props => (
   </Box>
 );
 
-const Stem = props => (
+const Stem = (props) => (
   <Box
     mx="auto"
     pt={['4', '5']}

@@ -10,7 +10,7 @@ export const Section = ({ hideDivider, children }) => (
   </React.Fragment>
 );
 
-export const SectionTitle = props => (
+export const SectionTitle = (props) => (
   <Text
     as="h3"
     size="3"
@@ -21,12 +21,12 @@ export const SectionTitle = props => (
   />
 );
 
-export const SubSection = props => <Box ml={['4', '5']} {...props} />;
+export const SubSection = (props) => <Box ml={['4', '5']} {...props} />;
 
-export const SubSectionTitle = props => (
+export const SubSectionTitle = (props) => (
   <Text as="h4" size="4" mt="5" {...props} />
 );
 
-export const SubSectionText = props => (
+export const SubSectionText = (props) => (
   <Text as="p" size="4" sx={{ color: 'gray' }} {...props} />
 );

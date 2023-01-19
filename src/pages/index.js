@@ -7,7 +7,7 @@ import { WhatIsJamstack } from '../components/WhatIsJamstack';
 import { Resources } from '../components/Resources';
 import { About } from '../components/About';
 
-export default function() {
+export default function () {
   return (
     <Layout>
       <Box px={[4, 5, 6]} py={[4, 5]} sx={{ bg: 'black', color: 'white' }}>
