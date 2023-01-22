@@ -10,7 +10,7 @@ import { About } from '../components/About';
 export default function () {
   return (
     <Layout>
-      <Box px={[4, 5, 6]} py={[4, 5]} sx={{ bg: 'black', color: 'white' }}>
+      <Box px={[4, 5, 6]} py={[2, 3]} sx={{ bg: 'black', color: 'white' }}>
         <Flex
           my={[5, 3]}
           sx={{
@@ -47,7 +47,14 @@ export default function () {
             </Link>
           </Text>
         </Flex>
-        <Container my={[5, 6]} mx="0">
+        <a href="https://www.stackbit.com/?ref=wtf&utm_source=jamstack-wtf&utm_medium=referral&utm_campaign=jamstack-wtf">
+          <img
+            width="95%"
+            style={{ maxWidth: '700px' }}
+            src="/sb-small-banner.svg"
+          />
+        </a>
+        <Container my={[3, 5]} mx="0">
           <Text as="p" size="6" as="p">
             Jamstack has revolutionized the way we think about building for the
             web by providing a simpler developer experience, better performance,
