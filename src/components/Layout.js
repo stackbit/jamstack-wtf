@@ -1,6 +1,5 @@
 import React from 'react';
 import Helmet from 'react-helmet';
-import ReactGA from 'react-ga';
 import styled, { createGlobalStyle } from 'styled-components/macro';
 import { theme } from '@peduarte/wallop-system';
 import metaImage from '../../static/jamstack-wtf-meta.png';
@@ -8,13 +7,6 @@ import metaImage from '../../static/jamstack-wtf-meta.png';
 const { NODE_ENV } = process.env;
 
 class Layout extends React.Component {
-  componentDidMount() {
-    if (NODE_ENV === 'production') {
-      ReactGA.initialize('UA-28314827-7');
-      ReactGA.pageview(window.location.pathname + window.location.search);
-    }
-  }
-
   render() {
     const { children } = this.props;
 
