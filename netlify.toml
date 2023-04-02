@@ -15,6 +15,7 @@ package = "netlify-plugin-checklinks"
     "https://www.cloudflare.com/learning/cdn/what-is-a-cdn/",
     "https://support.eji.org/give/153413",
     "https://vimeo.com/163522126",
-    "https://jamstack.new"
+    "https://jamstack.new",
+    "https://www.google-analytics.com"
   ]
   checkExternal = false
