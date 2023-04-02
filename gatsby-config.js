@@ -25,11 +25,19 @@ module.exports = {
       },
     },
     {
+      resolve: 'gatsby-plugin-google-gtag',
+      options: {
+        trackingIds: ['G-PXXEGE47R8'],
+      },
+    },
+    /*
+    {
       resolve: 'gatsby-plugin-segment-js',
       options: {
         prodKey: 'xNJvH4ktNfpAXwFVGDyrU9gpGGH7Whri',
         trackPage: true,
       },
     },
+    */
   ],
 };
