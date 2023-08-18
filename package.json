@@ -1,7 +1,8 @@
 {
-  "name": "gullible-gamma",
+  "name": "jamstack-wtf",
+  "description": "A simple guide to help you get on the Jamstack",
   "type": "module",
-  "version": "0.0.1",
+  "version": "0.2.0",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
@@ -15,8 +16,5 @@
     "autoprefixer": "^10.4.14",
     "postcss": "^8.4.24",
     "tailwindcss": "^3.3.2"
-  },
-  "devDependencies": {
-    "@tailwindcss/typography": "^0.5.9"
   }
 }
