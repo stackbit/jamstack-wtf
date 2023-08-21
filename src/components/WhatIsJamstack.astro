@@ -1,0 +1,237 @@
+---
+import WorkflowDiagram from "../components/WorkflowDiagram.astro";
+import TimelineDiagram from "../components/TimelineDiagram.astro";
+---
+
+<div class="mx-6 md:mx-32 max-w-3xl pt-8">
+<h2
+  id="what-is-jamstack"
+  class="pb-6 mb-12 text-3xl border-b-2 border-neutral-600"
+>
+  What is Jamstack
+</h2>
+<div>
+  <h3 id="history" class="pb-6 pt-12 text-xl uppercase font-bold">History</h3>
+
+  <p class="md:text-2xl">
+    "Jamstack" was originally cased as "JAMstack" where "JAM" stood for
+    JavaScript, API &amp; Markup.
+  </p>
+
+  <blockquote class="text-xl md:text-3xl text-neutral-400 border-0 md:pl-16 md:my-24">
+    "A modern web development architecture based on client-side JavaScript,
+    reusable APIs, and prebuilt Markup"
+    <p class="mt-6">— Mathias Biilmann (CEO &amp; Co-founder of Netlify).</p>
+  </blockquote>
+
+  <div class="flex flex-wrap text-xl md:text-2xl">
+    <div
+      class="bg-teal-300 p-2 sm:p-4 md:p-8 flex-1 text-center text-neutral-950 mb-2 mr-2 rounded-tl-xl"
+    >
+      JavaScript
+    </div>
+    <div class="bg-orange-400 p-2 sm:p-4 md:p-8 flex-1 text-center text-neutral-950 mb-2">
+      APIs
+    </div>
+    <div
+      class="bg-red-400 p-2 sm:p-4 md:p-8 flex-1 text-center text-neutral-950 ml-2 mb-2 rounded-tr-xl"
+    >
+      Markup
+    </div>
+    <div class="bg-white p-2 sm:p-4 md:p-8 w-full text-center text-neutral-950 rounded-b-xl">
+      JAM
+    </div>
+  </div>
+
+  <div class="md:pl-16">
+    <h4>JavaScript</h4>
+    <p class="text-neutral-400">
+      Dynamic functionalities are handled by JavaScript. There is no restriction
+      on which framework or library you must use.
+    </p>
+
+    <h4>APIs</h4>
+    <p class="text-neutral-400">
+      Server side operations are abstracted into reusable APIs and accessed over
+      HTTPS with JavaScript. These can be third party services or your custom
+      function.
+    </p>
+
+    <h4>Markup</h4>
+    <p class="text-neutral-400">
+      Websites are served as static HTML files. These can be generated from
+      source files, such as Markdown, using a Static Site Generator.
+    </p>
+  </div>
+
+  <hr class="my-24" />
+</div>
+
+<div>
+  <h3 id="meaning" class="pb-12 text-xl uppercase font-bold">Meaning</h3>
+  <p class="md:text-2xl">
+    Today, Jamstack is used to more broadly refer to an architectural approach
+    for building websites. Though there are varying opinions on what exactly
+    Jamstack means today, these attributes are present in most sites that claim
+    to be Jamstack sites:
+  </p>
+
+  <div class="md:pl-16">
+    <h4>Decoupled</h4>
+    <p class="text-neutral-400">
+      The front end uses tooling separate from the back end. The front end is
+      typically built using a static site generator. And the back end is often
+      integrated with the front through the use of APIs used during the build
+      process. Server-side processes can also be run using serverless functions.
+    </p>
+
+    <h4>Static-first</h4>
+    <p class="text-neutral-400">
+      While various practices exist for introducing dynamic elements to Jamstack
+      sites, most are pre-rendered, which means the front end was built and
+      compiled into HTML, CSS, and JavaScript files.
+    </p>
+
+    <h4>Progressively enhanced</h4>
+    <p class="text-neutral-400">
+      JavaScript can be introduced to pre-rendered sites on an as-needed basis,
+      thus increasing performance in the browser.
+    </p>
+  </div>
+
+  <hr />
+</div>
+
+<div>
+  <h3 id="benefits" class="pb-12 text-xl uppercase font-bold">Benefits</h3>
+  <p class="md:text-2xl">
+    Here are the main benefits provided by the Jamstack.
+  </p>
+
+  <div class="md:pl-16">
+    <h4>Faster performance</h4>
+    <p class="text-neutral-400">
+      Serve pre-built markup and assets over a CDN.
+    </p>
+    <h4>More secure</h4>
+    <p class="text-neutral-400">
+      No need to worry about server or database vulnerabilities.
+    </p>
+    <h4>Less expensive</h4>
+    <p class="text-neutral-400">
+      Hosting of static files is cheap or<!-- -->
+      <a href="https://www.netlify.com/" class="sc-bBABsx iUyeJb">even free.</a>
+    </p>
+    <h4>Better developer experience</h4>
+    <p class="text-neutral-400">
+      Front end developers can focus on the front end, without being tied to a
+      monolithic architecture. This usually means quicker and more focused
+      development.
+    </p>
+    <h4>Scalability</h4>
+    <p class="text-neutral-400">
+      If your product suddenly goes viral and has many active users, the CDN
+      seamlessly compensates.
+    </p>
+  </div>
+  <hr />
+</div>
+
+<div>
+  <h3 id="best-practices" class="pb-12 text-xl uppercase font-bold">Best practices</h3>
+  <p class="md:text-2xl">The following tips will help you leverage the best out of the stack.</p>
+
+  <div class="md:pl-16">
+    <h4>Content delivery network</h4>
+    <p class="text-neutral-400">
+      Since all the markup and assets are pre-built, they can be served via CDN.
+      This provides better performance and easier scalability.
+    </p>
+   
+      <a
+        title="Read more about CDN"
+        href="https://www.cloudflare.com/learning/cdn/what-is-a-cdn/"
+        class="border-b border-neutral-500 hover:border-white text-neutral-500 hover:text-white text-xl"
+        >
+        Learn more
+      </a>
+    <h4>Atomic deploys</h4>
+    <p class="text-neutral-400">
+      Each deploy is a full snapshot of the site. This helps guarantee a
+      consistent version of the site globally.
+    </p>
+    <span>
+      <a
+        title="Read more about atomic deploys"
+        href="https://buddy.works/blog/introducing-atomic-deployments#what-are-atomic-deployments"
+        class="border-b border-neutral-500 hover:border-white text-neutral-500 hover:text-white text-xl"
+      >
+      Learn more
+      </a>
+
+    <h4>Cache invalidation</h4>
+    <p class="text-neutral-400">
+      Once your build is uploaded, the CDN invalidates its cache. This means
+      that your new build is live in an instant.
+    </p>
+    <span>
+      <a
+        title="Read more about cache invalidation"
+        href="https://www.netlify.com/blog/2015/09/11/instant-cache-invalidation/"
+        class="border-b border-neutral-500 hover:border-white text-neutral-500 hover:text-white text-xl"
+        >
+        Learn more
+      </a>
+    
+    <h4>Everything in version control</h4>
+    <p class="text-neutral-400">
+      Your codebase lives in version control system, such as Git. The main
+      benefits are changing the history of every file, collaborators and
+      traceability.
+    </p>
+      <a
+        title="Read more about version control"
+        href="https://www.atlassian.com/git/tutorials/what-is-version-control"
+        class="border-b border-neutral-500 hover:border-white text-neutral-500 hover:text-white text-xl"
+        >
+        Learn more
+      </a>
+    
+    <h4>Automated builds</h4>
+    <p class="text-neutral-400">
+      Your server is notified when a new build is required, typically via
+      webhooks. Server builds the project, updates the CDNs and the site is
+      live.
+    </p>
+    <a
+      title="Read more about automated builds"
+      href="https://www.agilealliance.org/glossary/automated-build"
+      class="border-b border-neutral-500 hover:border-white text-neutral-500 hover:text-white text-xl"
+      >
+      Learn more
+    </a>
+  </div>
+  <hr />
+</div>
+
+<div>
+  <h3 id="workflow" class="pb-12 text-xl uppercase font-bold">Workflow</h3>
+  <p class="md:text-2xl">
+    Here's an ideal Jamstack workflow:
+  </p>
+  <WorkflowDiagram />
+  <hr />
+</div>
+
+<div>
+  <h3 id="timeline" class="pb-12 text-xl uppercase font-bold">Timeline</h3>
+  <p class="md:text-2xl">A brief history of Jamstack shows its growth in popularity.</p>
+
+  <TimelineDiagram />
+
+  <div class="mt-14 mb-24">
+    <a href="https://snipcart.com/blog/jamstack" class="border-b border-neutral-500 hover:border-white text-neutral-500 hover:text-white md:ml-16 text-xl">Source: SnipCart</a>
+  </div>
+
+</div>
+</div>

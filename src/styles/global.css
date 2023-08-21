@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        scroll-behavior: smooth;
+    }
+    body {
+        @apply antialiased;
+    }
+    h4 {
+        @apply text-2xl mt-12 pb-4 font-bold;
+    }
+    hr {
+        @apply border-neutral-600 my-24;
+    }
+    ul {
+        @apply text-xl;
+    }
+    ul li {
+        @apply border-b border-neutral-400;
+    }
+    p {
+        @apply text-xl pb-8;
+    }
+}
+
+@layer components {
+    .light ul li a:hover {
+        @apply text-neutral-950;
+    }
+    .light ul li:hover {
+        @apply text-neutral-950;
+    }
+    .dark ul li a:hover {
+        @apply text-white;
+    }
+    .dark ul li:hover {
+        @apply border-white;
+    }
+    .toc a:hover, 
+    .about a:hover {
+        @apply text-neutral-950 border-neutral-950;
+    }
+    .about a {
+        @apply border-b;
+    }
+}
