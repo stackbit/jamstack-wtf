@@ -1,4 +1,5 @@
---- 
+---
+import GoogleAnalytics from "../components/GoogleAnalytics.astro"; 
 interface Props {
 	title: string;
 }
@@ -9,6 +10,7 @@ import "../styles/global.css";
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		<GoogleAnalytics />
 		<meta charset="UTF-8" />
 		<title>{title}</title>
 		<meta name="description" content="Jamstack has revolutionized the way we build for the web by providing a simpler developer experience, better performance, lower cost, and greater scalability.">
