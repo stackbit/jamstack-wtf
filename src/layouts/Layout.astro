@@ -1,5 +1,5 @@
 ---
-import GoogleAnalytics from "../components/GoogleAnalytics.astro"; 
+import { GoogleAnalytics } from 'astro-google-analytics';
 interface Props {
 	title: string;
 }
@@ -10,10 +10,12 @@ import "../styles/global.css";
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<GoogleAnalytics />
+		<GoogleAnalytics id="G-PXXEGE47R8" />
 		<meta charset="UTF-8" />
 		<title>{title}</title>
 		<meta name="description" content="Jamstack has revolutionized the way we build for the web by providing a simpler developer experience, better performance, lower cost, and greater scalability.">
+		<meta property="og:title" content={title}>
+		<meta property="og:image" content="https://jamstack.wtf/jamstack-wtf-meta.png/">
 
 		<meta name="twitter:card" content="summary_large_image" />
 		<meta name="twitter:site" content="@stackbit" />
