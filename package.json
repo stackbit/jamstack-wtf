@@ -3,6 +3,9 @@
   "description": "A simple guide to help you get on the Jamstack",
   "type": "module",
   "version": "0.2.0",
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
