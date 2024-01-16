@@ -3,7 +3,7 @@ import WorkflowDiagram from "../components/WorkflowDiagram.astro";
 import TimelineDiagram from "../components/TimelineDiagram.astro";
 ---
 
-<div class="mx-6 md:mx-32 max-w-3xl pt-8">
+<div class="max-w-3xl pt-8 mx-6 md:mx-32">
 <h2
   id="what-is-jamstack"
   class="pb-6 mb-12 text-3xl border-b-2 border-neutral-600"
@@ -11,14 +11,14 @@ import TimelineDiagram from "../components/TimelineDiagram.astro";
   What is Jamstack
 </h2>
 <div>
-  <h3 id="history" class="pb-6 pt-12 text-xl uppercase font-bold">History</h3>
+  <h3 id="history" class="pt-12 pb-6 text-xl font-bold uppercase">History</h3>
 
   <p class="md:text-2xl">
     "Jamstack" was originally cased as "JAMstack" where "JAM" stood for
     JavaScript, API &amp; Markup.
   </p>
 
-  <blockquote class="text-xl md:text-3xl text-neutral-400 border-0 md:pl-16 md:my-24">
+  <blockquote class="text-xl border-0 md:text-3xl text-neutral-400 md:pl-16 md:my-24">
     "A modern web development architecture based on client-side JavaScript,
     reusable APIs, and prebuilt Markup"
     <p class="mt-6">— Mathias Biilmann (CEO &amp; Co-founder of Netlify).</p>
@@ -26,19 +26,19 @@ import TimelineDiagram from "../components/TimelineDiagram.astro";
 
   <div class="flex flex-wrap text-xl md:text-2xl">
     <div
-      class="bg-teal-300 p-2 sm:p-4 md:p-8 flex-1 text-center text-neutral-950 mb-2 mr-2 rounded-tl-xl"
+      class="flex-1 p-2 mb-2 mr-2 text-center bg-teal-300 sm:p-4 md:p-8 text-neutral-950 rounded-tl-xl"
     >
       JavaScript
     </div>
-    <div class="bg-orange-400 p-2 sm:p-4 md:p-8 flex-1 text-center text-neutral-950 mb-2">
+    <div class="flex-1 p-2 mb-2 text-center bg-orange-400 sm:p-4 md:p-8 text-neutral-950">
       APIs
     </div>
     <div
-      class="bg-red-400 p-2 sm:p-4 md:p-8 flex-1 text-center text-neutral-950 ml-2 mb-2 rounded-tr-xl"
+      class="flex-1 p-2 mb-2 ml-2 text-center bg-red-400 sm:p-4 md:p-8 text-neutral-950 rounded-tr-xl"
     >
       Markup
     </div>
-    <div class="bg-white p-2 sm:p-4 md:p-8 w-full text-center text-neutral-950 rounded-b-xl">
+    <div class="w-full p-2 text-center bg-white sm:p-4 md:p-8 text-neutral-950 rounded-b-xl">
       JAM
     </div>
   </div>
@@ -68,7 +68,7 @@ import TimelineDiagram from "../components/TimelineDiagram.astro";
 </div>
 
 <div>
-  <h3 id="meaning" class="pb-12 text-xl uppercase font-bold">Meaning</h3>
+  <h3 id="meaning" class="pb-12 text-xl font-bold uppercase">Meaning</h3>
   <p class="md:text-2xl">
     Today, Jamstack is used to more broadly refer to an architectural approach
     for building websites. Though there are varying opinions on what exactly
@@ -103,7 +103,7 @@ import TimelineDiagram from "../components/TimelineDiagram.astro";
 </div>
 
 <div>
-  <h3 id="benefits" class="pb-12 text-xl uppercase font-bold">Benefits</h3>
+  <h3 id="benefits" class="pb-12 text-xl font-bold uppercase">Benefits</h3>
   <p class="md:text-2xl">
     Here are the main benefits provided by the Jamstack.
   </p>
@@ -138,7 +138,7 @@ import TimelineDiagram from "../components/TimelineDiagram.astro";
 </div>
 
 <div>
-  <h3 id="best-practices" class="pb-12 text-xl uppercase font-bold">Best practices</h3>
+  <h3 id="best-practices" class="pb-12 text-xl font-bold uppercase">Best practices</h3>
   <p class="md:text-2xl">The following tips will help you leverage the best out of the stack.</p>
 
   <div class="md:pl-16">
@@ -151,7 +151,7 @@ import TimelineDiagram from "../components/TimelineDiagram.astro";
       <a
         title="Read more about CDN"
         href="https://www.cloudflare.com/learning/cdn/what-is-a-cdn/"
-        class="border-b border-neutral-500 hover:border-white text-neutral-500 hover:text-white text-xl"
+        class="text-xl border-b border-neutral-500 hover:border-white text-neutral-500 hover:text-white"
         >
         Learn more
       </a>
@@ -164,7 +164,7 @@ import TimelineDiagram from "../components/TimelineDiagram.astro";
       <a
         title="Read more about atomic deploys"
         href="https://buddy.works/blog/introducing-atomic-deployments#what-are-atomic-deployments"
-        class="border-b border-neutral-500 hover:border-white text-neutral-500 hover:text-white text-xl"
+        class="text-xl border-b border-neutral-500 hover:border-white text-neutral-500 hover:text-white"
       >
       Learn more
       </a>
@@ -178,7 +178,7 @@ import TimelineDiagram from "../components/TimelineDiagram.astro";
       <a
         title="Read more about cache invalidation"
         href="https://www.netlify.com/blog/2015/09/11/instant-cache-invalidation/"
-        class="border-b border-neutral-500 hover:border-white text-neutral-500 hover:text-white text-xl"
+        class="text-xl border-b border-neutral-500 hover:border-white text-neutral-500 hover:text-white"
         >
         Learn more
       </a>
@@ -192,7 +192,7 @@ import TimelineDiagram from "../components/TimelineDiagram.astro";
       <a
         title="Read more about version control"
         href="https://www.atlassian.com/git/tutorials/what-is-version-control"
-        class="border-b border-neutral-500 hover:border-white text-neutral-500 hover:text-white text-xl"
+        class="text-xl border-b border-neutral-500 hover:border-white text-neutral-500 hover:text-white"
         >
         Learn more
       </a>
@@ -206,7 +206,7 @@ import TimelineDiagram from "../components/TimelineDiagram.astro";
     <a
       title="Read more about automated builds"
       href="https://www.agilealliance.org/glossary/automated-build"
-      class="border-b border-neutral-500 hover:border-white text-neutral-500 hover:text-white text-xl"
+      class="text-xl border-b border-neutral-500 hover:border-white text-neutral-500 hover:text-white"
       >
       Learn more
     </a>
@@ -215,7 +215,7 @@ import TimelineDiagram from "../components/TimelineDiagram.astro";
 </div>
 
 <div>
-  <h3 id="workflow" class="pb-12 text-xl uppercase font-bold">Workflow</h3>
+  <h3 id="workflow" class="pb-12 text-xl font-bold uppercase">Workflow</h3>
   <p class="md:text-2xl">
     Here's an ideal Jamstack workflow:
   </p>
@@ -224,13 +224,13 @@ import TimelineDiagram from "../components/TimelineDiagram.astro";
 </div>
 
 <div>
-  <h3 id="timeline" class="pb-12 text-xl uppercase font-bold">Timeline</h3>
+  <h3 id="timeline" class="pb-12 text-xl font-bold uppercase">Timeline</h3>
   <p class="md:text-2xl">A brief history of Jamstack shows its growth in popularity.</p>
 
   <TimelineDiagram />
 
-  <div class="mt-14 mb-24">
-    <a href="https://snipcart.com/blog/jamstack" class="border-b border-neutral-500 hover:border-white text-neutral-500 hover:text-white md:ml-16 text-xl">Source: SnipCart</a>
+  <div class="mb-24 mt-14">
+    <a href="https://snipcart.com/blog/jamstack" class="text-xl border-b border-neutral-500 hover:border-white text-neutral-500 hover:text-white md:ml-16">Source: SnipCart</a>
   </div>
 
 </div>
