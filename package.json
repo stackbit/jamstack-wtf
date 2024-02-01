@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@astrojs/tailwind": "^5.1.0",
-    "astro": "^4.2.7",
+    "astro": "^4.2.8",
     "astro-google-analytics": "^1.0.3",
     "autoprefixer": "^10.4.17",
     "postcss": "^8.4.33",
