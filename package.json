@@ -14,11 +14,9 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/tailwind": "^5.1.5",
     "@tailwindcss/vite": "^4.0.4",
-    "astro": "^5.1.8",
+    "astro": "^5.2.5",
     "astro-google-analytics": "^1.0.3",
-    "autoprefixer": "^10.4.20",
     "tailwindcss": "^4.0.0"
   }
 }
