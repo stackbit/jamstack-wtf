@@ -1,12 +1,8 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/801bf845-4093-4780-8cf3-32ac5bb57fa2/deploy-status)](https://app.netlify.com/sites/jamstack-wtf/deploys)
-
 # WTF is Jamstack?
 
 Jamstack is revolutionising the way we think about workflow by providing a simpler developer experience, better performance, lower cost and greater scalability.
 
 This simple guide will help you understand why it exists and how to get started.
-
-[✨ Read the guide](https://jamstack.wtf)
 
 ## About
 
